@@ -1,6 +1,6 @@
 residue SER 
 centre CA
-ATOM   N     CA    C     O     CB    OG
+atom   N     CA    C     O     CB    OG
 fragment_all N     CA    C     O     CB    OG
 fragment_mc N     CA    C     O     CB
 fragment_sc CB OG
@@ -18,14 +18,14 @@ conformer beta phi -120. psi 120.
 rotamer m___29  chi1  -65.
 rotamer t___22  chi1 -177.
 rotamer p___48  chi1   62.
-TORSION PHI C- N CA C CB C O OG 
-TORSION PSI* N CA C O O
-TORSION CHI1 N CA CB OG OG 
+torsion phi C- N CA C CB C O OG 
+torsion psi* N CA C O O
+torsion chi1 N CA CB OG OG 
 connect_sc -  CA    +
-CONNECT_sc CA    CB    OG
-CONNECT_ALL -     N     CA    C     +
-CONNECT_ALL CA    CB    OG
-CONNECT_ALL C     O
+connect_sc CA    CB    OG
+connect_all -     N     CA    C     +
+connect_all CA    CB    OG
+connect_all C     O
 connect_mc -     N     CA    C     +
 connect_mc C     O
 bond_distance N    C-      1.329 0.02

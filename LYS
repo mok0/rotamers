@@ -1,6 +1,6 @@
 residue LYS 
 centre CA
-ATOM   N     CA    C     O     CB    CG    CD    CE    NZ
+atom   N     CA    C     O     CB    CG    CD    CE    NZ
 fragment_all N     CA    C     O     CB    CG    CD    CE    NZ
 fragment_mc N     CA    C     O     CB
 fragment_sc CB CG  CD  CE  NZ
@@ -50,17 +50,17 @@ rotamer pttm_1  chi1   62. chi2  180. chi3  180. chi4  -65.
 rotamer pttt_2  chi1   62. chi2  180. chi3  180. chi4  180.
 rotamer pttp_1  chi1   62. chi2  180. chi3  180. chi4   65.
 rotamer ptpt_1  chi1   62. chi2  180. chi3   68. chi4  180.
-TORSION PHI C- N CA C CB C O CG CD CE NZ
-TORSION PSI* N CA C O O
-TORSION CHI1 N CA CB CG CG CD CE NZ
-TORSION CHI2 CA CB CG CD CD CE NZ
-TORSION CHI3 CB CG CD CE CE NZ
-TORSION CHI4 CG CD CE NZ NZ
+torsion phi C- N CA C CB C O CG CD CE NZ
+torsion psi* N CA C O O
+torsion chi1 N CA CB CG CG CD CE NZ
+torsion chi2 CA CB CG CD CD CE NZ
+torsion chi3 CB CG CD CE CE NZ
+torsion chi4 CG CD CE NZ NZ
 connect_sc -  CA    +
-CONNECT_sc CA    CB    CG    CD    CE    NZ
-CONNECT_ALL -     N     CA    C     +
-CONNECT_ALL CA    CB    CG    CD    CE    NZ
-CONNECT_ALL C     O
+connect_sc CA    CB    CG    CD    CE    NZ
+connect_all -     N     CA    C     +
+connect_all CA    CB    CG    CD    CE    NZ
+connect_all C     O
 connect_mc -     N     CA    C     +
 connect_mc C     O
 bond_distance N    C-      1.329 0.02

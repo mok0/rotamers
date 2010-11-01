@@ -1,8 +1,8 @@
 residue SOL
-ATOM   OHH
+atom   OHH
 fragment_all OHH
 fragment_rsr_1 OHH
-CONNECT_ALL OHH   OHH
-CONNECT_mc OHH OHH
-CONNECT_sc OHH OHH
+connect_all OHH   OHH
+connect_mc OHH OHH
+connect_sc OHH OHH
 ------------------------------------------------------------------------

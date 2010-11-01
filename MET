@@ -1,6 +1,6 @@
 residue MET 
 centre CA
-ATOM   N     CA    C     O     CB    CG    SD    CE
+atom   N     CA    C     O     CB    CG    SD    CE
 fragment_all N     CA    C     O     CB    CG    SD    CE
 fragment_mc N     CA    C     O     CB
 fragment_sc CB CG  SD  CE
@@ -31,16 +31,16 @@ rotamer tpt__2  chi1 -177. chi2   65. chi3  180.
 rotamer tpp__5  chi1 -177. chi2   65. chi3   75.
 rotamer ptm__3  chi1   62. chi2  180. chi3  -75.
 rotamer ptp__2  chi1   62. chi2  180. chi3   75.
-TORSION PHI C- N CA C CB C O CG SD CE
-TORSION PSI* N CA C O O
-TORSION CHI1 N CA CB CG CG SD CE 
-TORSION CHI2 CA CB CG SD SD CE
-TORSION CHI3 CB CG SD CE CE
+torsion phi C- N CA C CB C O CG SD CE
+torsion psi* N CA C O O
+torsion chi1 N CA CB CG CG SD CE 
+torsion chi2 CA CB CG SD SD CE
+torsion chi3 CB CG SD CE CE
 connect_sc -  CA    +
-CONNECT_sc CA    CB    CG    SD    CE
-CONNECT_ALL -     N     CA    C     +
-CONNECT_ALL CA    CB    CG    SD    CE
-CONNECT_ALL C     O
+connect_sc CA    CB    CG    SD    CE
+connect_all -     N     CA    C     +
+connect_all CA    CB    CG    SD    CE
+connect_all C     O
 connect_mc -     N     CA    C     +
 connect_mc C     O
 bond_distance N    C-      1.329 0.02

@@ -1,6 +1,6 @@
 residue LEU 
 centre CA
-ATOM   N     CA    C     O     CB    CG    CD1   CD2
+atom   N     CA    C     O     CB    CG    CD1   CD2
 fragment_all N     CA    C     O     CB    CG    CD1   CD2
 fragment_mc N     CA    C     O     CB
 fragment_sc CB CG CD1 CD2
@@ -21,17 +21,17 @@ rotamer mp___2  chi1  -85. chi2   65.
 rotamer tt___2  chi1 -172. chi2  145.
 rotamer tp__29  chi1 -177. chi2   65.
 rotamer pp___1  chi1   62. chi2   80.
-TORSION PHI C- N CA C CB CG CD1 CD2 C O
-TORSION PSI* N CA C O O
-TORSION CHI1 N CA CB CG CG CD1 CD2
-TORSION CHI2 CA CB CG CD1 CD1 CD2
+torsion phi C- N CA C CB CG CD1 CD2 C O
+torsion psi* N CA C O O
+torsion chi1 N CA CB CG CG CD1 CD2
+torsion chi2 CA CB CG CD1 CD1 CD2
 connect_sc -  CA    +
-CONNECT_sc CA    CB    CG    CD1
-CONNECT_sc CG    CD2
-CONNECT_ALL -     N     CA    C     +
-CONNECT_ALL CA    CB    CG    CD1
-CONNECT_ALL CG    CD2
-CONNECT_ALL C     O
+connect_sc CA    CB    CG    CD1
+connect_sc CG    CD2
+connect_all -     N     CA    C     +
+connect_all CA    CB    CG    CD1
+connect_all CG    CD2
+connect_all C     O
 connect_mc -     N     CA    C     +
 connect_mc C     O
 bond_distance N    C-      1.329 0.02

@@ -1,6 +1,6 @@
 residue GLU 
 centre CA
-ATOM   N     CA    C     O     CB    CG    CD    OE1   OE2
+atom   N     CA    C     O     CB    CG    CD    OE1   OE2
 fragment_all N     CA    C     O     CB    CG    CD    OE1   OE2
 fragment_mc N     CA    C     O     CB
 fragment_sc CB CG CD OE1 OE2
@@ -33,18 +33,18 @@ rotamer pm0__2  chi1   70. chi2  -80. chi3    0.
 rotamer Spt-60  chi1   62. chi2  180. chi3  -60.
 rotamer pt-20*  chi1   62. chi2  180. chi3  -20.
 rotamer Spt60_  chi1   62. chi2  180. chi3   60.
-TORSION PHI C- N CA C CB C O CG CD OE1 OE2
-TORSION PSI* N CA C O O
-TORSION CHI1 N CA CB CG CG CD OE1 OE2
-TORSION CHI2 CA CB CG CD CD OE1 OE2
-TORSION CHI3 CB CG CD OE1 OE1 OE2
+torsion phi C- N CA C CB C O CG CD OE1 OE2
+torsion psi* N CA C O O
+torsion chi1 N CA CB CG CG CD OE1 OE2
+torsion chi2 CA CB CG CD CD OE1 OE2
+torsion chi3 CB CG CD OE1 OE1 OE2
 connect_sc -  CA    +
-CONNECT_sc CA    CB    CG    CD    OE1   
-CONNECT_sc CD    OE2
-CONNECT_ALL -     N     CA    C     +
-CONNECT_ALL CA    CB    CG    CD    OE1   
-CONNECT_ALL CD    OE2
-CONNECT_ALL C     O 
+connect_sc CA    CB    CG    CD    OE1   
+connect_sc CD    OE2
+connect_all -     N     CA    C     +
+connect_all CA    CB    CG    CD    OE1   
+connect_all CD    OE2
+connect_all C     O 
 connect_mc -     N     CA    C     +
 connect_mc C     O
 bond_distance N    C-      1.329 0.02

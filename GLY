@@ -1,6 +1,6 @@
 residue GLY 
 centre CA
-ATOM   N     CA    C     O
+atom   N     CA    C     O
 fragment_all  N     CA    C     O
 fragment_mc N     CA    C     O     CB
 fragment_sc CA
@@ -12,11 +12,11 @@ omega CA  C   N+  CA+
 conformer alpha phi -55. psi -50.
 conformer beta phi -120. psi 120.
 conformer aleft phi 50. psi 38.
-TORSION PHI C- N CA C C O O
-TORSION PSI* N CA C O O
+torsion phi C- N CA C C O O
+torsion psi* N CA C O O
 connect_sc -  CA    +
-CONNECT_ALL -     N     CA    C     +
-CONNECT_ALL C     O
+connect_all -     N     CA    C     +
+connect_all C     O
 connect_mc -     N     CA    C     +
 connect_mc C     O
 bond_distance N    C-      1.329 0.02

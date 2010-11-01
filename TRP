@@ -1,6 +1,6 @@
 residue TRP 
 centre CA
-ATOM   N     CA    C     O     CB    CG    CD1   CD2   NE1   CE2 \
+atom   N     CA    C     O     CB    CG    CD1   CD2   NE1   CE2 \
        CE3   CZ2   CZ3   CH2
 fragment_all N     CA    C     O     CB    CG    CD1   CD2   NE1   CE2 \
        CE3   CZ2   CZ3   CH2
@@ -25,19 +25,19 @@ rotamer t-105*  chi1 -177. chi2 -105.
 rotamer t90_18  chi1 -177. chi2   90.
 rotamer p-90**  chi1   62. chi2  -90.
 rotamer p90__6  chi1   62. chi2   90.
-torsion PHI   C- N CA C CB CG CD1 CD2 NE1 CE2 CE3 CZ2 CZ3 CH2 C O
-torsion PSI*  N CA C O O 
-torsion CHI1  N CA CB CG CG CD1 CD2 NE1 CE2 CE3 CZ2 CZ3 CH2
-torsion CHI2  CA CB CG CD1 CD1 CD2 NE1 CE2 CE3 CZ2 CZ3 CH2
+torsion phi   C- N CA C CB CG CD1 CD2 NE1 CE2 CE3 CZ2 CZ3 CH2 C O
+torsion psi*  N CA C O O 
+torsion chi1  N CA CB CG CG CD1 CD2 NE1 CE2 CE3 CZ2 CZ3 CH2
+torsion chi2  CA CB CG CD1 CD1 CD2 NE1 CE2 CE3 CZ2 CZ3 CH2
 connect_sc -  CA    +
-CONNECT_sc CA    CB    CG    CD1   NE1
-CONNECT_sc CG    CD2   CE2   NE1
-CONNECT_sc CD2   CE3   CZ3  CH2   CZ2   CE2
-CONNECT_ALL -     N     CA    C     +
-CONNECT_ALL CA    CB    CG    CD1   NE1
-CONNECT_ALL CG    CD2   CE2   NE1
-CONNECT_ALL CD2   CE3   CZ3  CH2   CZ2   CE2
-CONNECT_ALL C     O
+connect_sc CA    CB    CG    CD1   NE1
+connect_sc CG    CD2   CE2   NE1
+connect_sc CD2   CE3   CZ3  CH2   CZ2   CE2
+connect_all -     N     CA    C     +
+connect_all CA    CB    CG    CD1   NE1
+connect_all CG    CD2   CE2   NE1
+connect_all CD2   CE3   CZ3  CH2   CZ2   CE2
+connect_all C     O
 connect_mc -     N     CA    C     +
 connect_mc C     O
 bond_distance N    C-      1.329 0.02

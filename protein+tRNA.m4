@@ -2,7 +2,7 @@
 ! Uses Duke University rotamers for amino acids.
 !
 .bonds_angles t XXXXXXX 72
-link connections between 2 lined atoms, must be < than this value
+link connections between 2 linked atoms, must be < than this value
 connect_all 2.0
 connect_mc 2.0
 connect_sc 4.8

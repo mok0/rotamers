@@ -2,42 +2,42 @@ residue  YG
 centre  P  
 atom N1 N2 C2 N3 C3 C4 C5 C6 O6 N7 \
    C8 N9 C10 C11 C12 C13 C14 C15 C16 O17 \
-   O18 C19 N20 C21 O22 O23 C24 C1* C2* O2* \
-   C3* O3* C4* O4* C5* O5* P O1P O2P 
+   O18 C19 N20 C21 O22 O23 C24 C1' C2' O2' \
+   C3' O3' C4' O4' C5' O5' P O1P O2P 
 fragment_all N1 N2 C2 N3 C3 C4 C5 C6 O6 N7 \
    C8 N9 C10 C11 C12 C13 C14 C15 C16 O17 \
-   O18 C19 N20 C21 O22 O23 C24 C1* C2* O2* \
-   C3* O3* C4* O4* C5* O5* P O1P O2P 
+   O18 C19 N20 C21 O22 O23 C24 C1' C2' O2' \
+   C3' O3' C4' O4' C5' O5' P O1P O2P 
 fragment_sc N1 N2 C2 N3 C3 C4 C5 C6 O6 N7 \
    C8 N9 C10 C11 C12 C13 C14 C15 C16 O17 \
-   O18 C19 N20 C21 O22 O23 C24 C1* C2* O2* \
-   C3* O3* C4* O4* C5* O5* P O1P O2P 
+   O18 C19 N20 C21 O22 O23 C24 C1' C2' O2' \
+   C3' O3' C4' O4' C5' O5' P O1P O2P 
 side-chain N1 N2 C2 N3 C3 C4 C5 C6 O6 N7 \
    C8 N9 C10 C11 C12 C13 C14 C15 C16 O17 \
-   O18 C19 N20 C21 O22 O23 C24 C1* C2* O2* \
-   C3* O3* C4* O4* C5* O5* P O1P O2P
+   O18 C19 N20 C21 O22 O23 C24 C1' C2' O2' \
+   C3' O3' C4' O4' C5' O5' P O1P O2P
 ---
-main-chain P O1P O2P O5* C5* C4* C3* O3* 
-alpha   O3*- P    O5*  C5*
-beta    P    O5*  C5*  C4*
-gamma   O5*  C5*  C4*  C3*
-delta   C5*  C4*  C3*  O3*
-epsilon C4*  C3*  O3*  P+
-zeta    C3*  O3*  P+   O5*+
-chi     O4*  C1*  N9   C4
-nu0     C4*  O4*  C1*  C2*
-nu1     O4*  C1*  C2*  C3*
-nu2     C1*  C2*  C3*  C4*
-nu3     C2*  C3*  C4*  O4*
-nu4     C3*  C4*  O4*  C1*
+main-chain P O1P O2P O5' C5' C4' C3' O3' 
+alpha   O3'- P    O5'  C5'
+beta    P    O5'  C5'  C4'
+gamma   O5'  C5'  C4'  C3'
+delta   C5'  C4'  C3'  O3'
+epsilon C4'  C3'  O3'  P+
+zeta    C3'  O3'  P+   O5'+
+chi     O4'  C1'  N9   C4
+nu0     C4'  O4'  C1'  C2'
+nu1     O4'  C1'  C2'  C3'
+nu2     C1'  C2'  C3'  C4'
+nu3     C2'  C3'  C4'  O4'
+nu4     C3'  C4'  O4'  C1'
 rotamer 1 chi -152. nu2  37. nu3 -36 nu4 26.
 rotamer 2 chi   28. nu2  37. nu3 -36 nu4 26.
 rotamer 1 chi   28. nu2 -34. nu3  24 nu4 -3.
 rotamer 2 chi -152. nu2 -34. nu3  24 nu4 -3.
 conformer helix alpha -68.
-CONNECT_ALL - P O5* C5* C4* C3* O3* +
-CONNECT_ALL C4* O4* C1* C2* C3*
-CONNECT_ALL C2* O2*
+connect_all - P O5' C5' C4' C3' O3' +
+connect_all C4' O4' C1' C2' C3'
+connect_all C2' O2'
 ---
 connect_all N1 C2 N2 C11 C10
 connect_all N1 C6 C5 C4 N3 C2
@@ -45,7 +45,7 @@ connect_all N1 C12 C11
 connect_all N3 C3
 connect_all C4 N9 C8 N7 C5
 connect_all C6 O6
-connect_all N9 C1*
+connect_all N9 C1'
 connect_all C12 C13 C14 C15 C16 O17
 connect_all C15 N20 C21 O22
 connect_all C16 O18 C19
@@ -71,7 +71,7 @@ bond_distance C5 N7 1.357 0.020
 bond_distance C6 O6 1.217 0.020
 bond_distance N7 C8 1.300 0.020
 bond_distance C8 N9 1.363 0.020
-bond_distance N9 C1* 1.465 0.020
+bond_distance N9 C1' 1.465 0.020
 bond_distance C10 C11 1.507 0.020
 bond_distance C11 C12 1.344 0.020
 bond_distance C12 C13 1.506 0.020
@@ -86,16 +86,16 @@ bond_distance N20 C21 1.347 0.020
 bond_distance C21 O22 1.215 0.020
 bond_distance C21 O23 1.347 0.020
 bond_distance O23 C24 1.452 0.020
-bond_distance C1* C2* 1.544 0.020
-bond_distance C1* O4* 1.445 0.020
-bond_distance C2* O2* 1.429 0.020
-bond_distance C2* C3* 1.546 0.020
-bond_distance C3* O3* 1.429 0.020
-bond_distance C3* C4* 1.545 0.020
-bond_distance C4* O4* 1.444 0.020
-bond_distance C4* C5* 1.530 0.020
-bond_distance C5* O5* 1.428 0.020
-bond_distance O5* P 1.609 0.020
+bond_distance C1' C2' 1.544 0.020
+bond_distance C1' O4' 1.445 0.020
+bond_distance C2' O2' 1.429 0.020
+bond_distance C2' C3' 1.546 0.020
+bond_distance C3' O3' 1.429 0.020
+bond_distance C3' C4' 1.545 0.020
+bond_distance C4' O4' 1.444 0.020
+bond_distance C4' C5' 1.530 0.020
+bond_distance C5' O5' 1.428 0.020
+bond_distance O5' P 1.609 0.020
 bond_distance P O1P 1.479 0.020
 bond_distance P O2P 1.610 0.020
 bond_angle C2 N1 C6 120.94 2.00
@@ -120,8 +120,8 @@ bond_angle C5 C6 O6 120.19 2.00
 bond_angle C5 N7 C8 109.14 2.00
 bond_angle N7 C8 N9 109.61 2.00
 bond_angle C4 N9 C8 107.54 2.00
-bond_angle C4 N9 C1* 126.22 2.00
-bond_angle C8 N9 C1* 126.24 2.00
+bond_angle C4 N9 C1' 126.22 2.00
+bond_angle C8 N9 C1' 126.24 2.00
 bond_angle N2 C11 C10 125.76 2.00
 bond_angle N2 C11 C12 108.53 2.00
 bond_angle C10 C11 C12 125.71 2.00
@@ -142,23 +142,23 @@ bond_angle N20 C21 O22 120.03 2.00
 bond_angle N20 C21 O23 119.98 2.00
 bond_angle O22 C21 O23 119.99 2.00
 bond_angle C21 O23 C24 119.99 2.00
-bond_angle N9 C1* C2* 110.41 2.00
-bond_angle N9 C1* O4* 110.36 2.00
-bond_angle C2* C1* O4* 104.88 2.00
-bond_angle C1* C2* O2* 110.75 2.00
-bond_angle C1* C2* C3* 104.01 2.00
-bond_angle O2* C2* C3* 110.51 2.00
-bond_angle C2* C3* O3* 110.55 2.00
-bond_angle C2* C3* C4* 104.09 2.00
-bond_angle O3* C3* C4* 110.46 2.00
-bond_angle C3* C4* O4* 104.77 2.00
-bond_angle C3* C4* C5* 110.45 2.00
-bond_angle O4* C4* C5* 110.34 2.00
-bond_angle C1* O4* C4* 105.25 2.00
-bond_angle C4* C5* O5* 109.52 2.00
-bond_angle C5* O5* P 106.84 2.00
-bond_angle O5* P O1P 109.43 2.00
-bond_angle O5* P O2P 109.47 2.00
+bond_angle N9 C1' C2' 110.41 2.00
+bond_angle N9 C1' O4' 110.36 2.00
+bond_angle C2' C1' O4' 104.88 2.00
+bond_angle C1' C2' O2' 110.75 2.00
+bond_angle C1' C2' C3' 104.01 2.00
+bond_angle O2' C2' C3' 110.51 2.00
+bond_angle C2' C3' O3' 110.55 2.00
+bond_angle C2' C3' C4' 104.09 2.00
+bond_angle O3' C3' C4' 110.46 2.00
+bond_angle C3' C4' O4' 104.77 2.00
+bond_angle C3' C4' C5' 110.45 2.00
+bond_angle O4' C4' C5' 110.34 2.00
+bond_angle C1' O4' C4' 105.25 2.00
+bond_angle C4' C5' O5' 109.52 2.00
+bond_angle C5' O5' P 106.84 2.00
+bond_angle O5' P O1P 109.43 2.00
+bond_angle O5' P O2P 109.47 2.00
 bond_angle O1P P O2P 109.41 2.00
 torsion_fixed C6 N1 C2 N2 180.00 2.00
 torsion_fixed C6 N1 C2 N3 0.00 2.00
@@ -189,9 +189,9 @@ torsion_fixed N3 C4 C5 N7 180.00 2.00
 torsion_fixed N9 C4 C5 C6 180.00 2.00
 torsion_fixed N9 C4 C5 N7 0.00 2.00
 torsion_fixed N3 C4 N9 C8 180.00 2.00
-torsion_fixed N3 C4 N9 C1* 0.00 2.00
+torsion_fixed N3 C4 N9 C1' 0.00 2.00
 torsion_fixed C5 C4 N9 C8 0.00 2.00
-torsion_fixed C5 C4 N9 C1* 180.00 2.00
+torsion_fixed C5 C4 N9 C1' 180.00 2.00
 torsion_fixed C4 C5 C6 N1 0.00 2.00
 torsion_fixed C4 C5 C6 O6 180.00 2.00
 torsion_fixed N7 C5 C6 N1 180.00 2.00
@@ -200,11 +200,11 @@ torsion_fixed C4 C5 N7 C8 0.00 2.00
 torsion_fixed C6 C5 N7 C8 180.00 2.00
 torsion_fixed C5 N7 C8 N9 0.00 2.00
 torsion_fixed N7 C8 N9 C4 0.00 2.00
-torsion_fixed N7 C8 N9 C1* 180.00 2.00
-torsion_flexible C4 N9 C1* C2* 90.00 20.00
-torsion_flexible C4 N9 C1* O4* -153.00 20.00
-torsion_flexible C8 N9 C1* C2* -90.00 20.00
-torsion_flexible C8 N9 C1* O4* 27.00 20.00
+torsion_fixed N7 C8 N9 C1' 180.00 2.00
+torsion_flexible C4 N9 C1' C2' 90.00 20.00
+torsion_flexible C4 N9 C1' O4' -153.00 20.00
+torsion_flexible C8 N9 C1' C2' -90.00 20.00
+torsion_flexible C8 N9 C1' O4' 27.00 20.00
 torsion_fixed N2 C11 C12 N1 0.00 2.00
 torsion_fixed N2 C11 C12 C13 180.00 2.00
 torsion_fixed C10 C11 C12 N1 180.00 2.00
@@ -226,41 +226,41 @@ torsion_fixed C15 N20 C21 O22 0.00 2.00
 torsion_fixed C15 N20 C21 O23 180.00 2.00
 torsion_fixed N20 C21 O23 C24 180.00 2.00
 torsion_fixed O22 C21 O23 C24 0.00 2.00
-torsion_flexible N9 C1* C2* O2* -90.00 20.00
-torsion_flexible N9 C1* C2* C3* 143.00 20.00
-torsion_flexible O4* C1* C2* O2* 143.00 20.00
-torsion_flexible O4* C1* C2* C3* 24.00 20.00
-torsion_flexible N9 C1* O4* C4* -159.00 20.00
-torsion_flexible C2* C1* O4* C4* -40.00 20.00
-torsion_flexible C1* C2* C3* O3* 120.00 20.00
-torsion_fixed C1* C2* C3* C4* 0.00 2.00
-torsion_fixed O2* C2* C3* O3* 0.00 2.00
-torsion_flexible O2* C2* C3* C4* -120.00 20.00
-torsion_flexible C2* C3* C4* O4* -24.00 20.00
-torsion_flexible C2* C3* C4* C5* -143.00 20.00
-torsion_flexible O3* C3* C4* O4* -143.00 20.00
-torsion_flexible O3* C3* C4* C5* 90.00 20.00
-torsion_flexible C3* C4* O4* C1* 41.00 20.00
-torsion_flexible C5* C4* O4* C1* 159.00 20.00
-torsion_fixed C3* C4* C5* O5* 180.00 2.00
-torsion_flexible O4* C4* C5* O5* 60.00 20.00
-torsion_fixed C4* C5* O5* P 180.00 2.00
-torsion_flexible C5* O5* P O1P 60.00 20.00
-torsion_fixed C5* O5* P O2P 180.00 2.00
+torsion_flexible N9 C1' C2' O2' -90.00 20.00
+torsion_flexible N9 C1' C2' C3' 143.00 20.00
+torsion_flexible O4' C1' C2' O2' 143.00 20.00
+torsion_flexible O4' C1' C2' C3' 24.00 20.00
+torsion_flexible N9 C1' O4' C4' -159.00 20.00
+torsion_flexible C2' C1' O4' C4' -40.00 20.00
+torsion_flexible C1' C2' C3' O3' 120.00 20.00
+torsion_fixed C1' C2' C3' C4' 0.00 2.00
+torsion_fixed O2' C2' C3' O3' 0.00 2.00
+torsion_flexible O2' C2' C3' C4' -120.00 20.00
+torsion_flexible C2' C3' C4' O4' -24.00 20.00
+torsion_flexible C2' C3' C4' C5' -143.00 20.00
+torsion_flexible O3' C3' C4' O4' -143.00 20.00
+torsion_flexible O3' C3' C4' C5' 90.00 20.00
+torsion_flexible C3' C4' O4' C1' 41.00 20.00
+torsion_flexible C5' C4' O4' C1' 159.00 20.00
+torsion_fixed C3' C4' C5' O5' 180.00 2.00
+torsion_flexible O4' C4' C5' O5' 60.00 20.00
+torsion_fixed C4' C5' O5' P 180.00 2.00
+torsion_flexible C5' O5' P O1P 60.00 20.00
+torsion_fixed C5' O5' P O2P 180.00 2.00
 torsion_fixed N1 C2 C6 C12 0.00 2.00
 torsion_fixed C2 N1 N2 N3 0.00 2.00
 torsion_fixed N3 C2 C3 C4 0.00 2.00
 torsion_fixed C4 N3 C5 N9 0.00 2.00
 torsion_fixed C5 C4 C6 N7 0.00 2.00
 torsion_fixed C6 N1 C5 O6 0.00 2.00
-torsion_fixed N9 C4 C8 C1* 0.00 2.00
+torsion_fixed N9 C4 C8 C1' 0.00 2.00
 torsion_fixed C11 N2 C10 C12 0.00 2.00
 torsion_fixed C12 N1 C11 C13 0.00 2.00
 torsion_fixed C15 C14 C16 N20 35.00 2.00
 torsion_fixed C16 C15 O17 O18 0.00 2.00
 torsion_fixed C21 N20 O22 O23 0.00 2.00
-torsion_fixed C1* N9 C2* O4* -35.00 2.00
-torsion_fixed C2* C1* O2* C3* 35.00 2.00
-torsion_fixed C3* C2* O3* C4* 35.00 2.00
-torsion_fixed C4* C3* O4* C5* 35.00 2.00
-torsion_fixed P O5* O1P O2P -35.00 2.00
+torsion_fixed C1' N9 C2' O4' -35.00 2.00
+torsion_fixed C2' C1' O2' C3' 35.00 2.00
+torsion_fixed C3' C2' O3' C4' 35.00 2.00
+torsion_fixed C4' C3' O4' C5' 35.00 2.00
+torsion_fixed P O5' O1P O2P -35.00 2.00

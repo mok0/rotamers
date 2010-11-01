@@ -1,6 +1,6 @@
 residue ASP 
 centre CA
-ATOM   N     CA    C     O     CB    CG    OD1   OD2
+atom   N     CA    C     O     CB    CG    OD1   OD2
 fragment_all N     CA    C     O     CB    CG    OD1   OD2
 fragment_mc N     CA    C     O     CB
 fragment_sc CB CG OD1 OD2
@@ -24,17 +24,17 @@ rotamer t70__6  chi1 -177. chi2   65.
 rotamer Sp-50_  chi1   62. chi2  -50.
 rotamer p-10**  chi1   62. chi2  -10.
 rotamer p30__9  chi1   62. chi2   30.
-torsion PHI C- N CA C CB C O CG OD1 OD2
-torsion PSI* N CA C O O
-torsion CHI1 N CA CB CG CG OD1 OD2
-torsion CHI2 CA CB CG OD1 OD1 OD2
+torsion phi C- N CA C CB C O CG OD1 OD2
+torsion psi* N CA C O O
+torsion chi1 N CA CB CG CG OD1 OD2
+torsion chi2 CA CB CG OD1 OD1 OD2
 connect_sc -  CA    +
-CONNECT_sc CA    CB    CG    OD1
-CONNECT_sc CG    OD2
-CONNECT_ALL -     N     CA    C     +
-CONNECT_ALL CA    CB    CG    OD1
-CONNECT_ALL CG    OD2
-CONNECT_ALL C     O
+connect_sc CA    CB    CG    OD1
+connect_sc CG    OD2
+connect_all -     N     CA    C     +
+connect_all CA    CB    CG    OD1
+connect_all CG    OD2
+connect_all C     O
 connect_mc -     N     CA    C     +
 connect_mc C     O
 bond_distance N    C-      1.329 0.02

@@ -1,8 +1,8 @@
 residue MG
-ATOM   MG
+atom   MG
 fragment_all MG
 fragment_rsr_1 MG
-CONNECT_ALL MG   MG
-CONNECT_mc MG MG
-CONNECT_sc MG MG
+connect_all MG   MG
+connect_mc MG MG
+connect_sc MG MG
 ------------------------------------------------------------------------

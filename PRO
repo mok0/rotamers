@@ -1,6 +1,6 @@
 residue PRO 
 centre CA
-ATOM   N     CA    C     O     CB    CG    CD
+atom   N     CA    C     O     CB    CG    CD
 fragment_all N     CA    C     O     CB    CG    CD
 fragment_mc N     CA    C     O     CB
 fragment_sc CB CG CD
@@ -17,16 +17,16 @@ conformer alpha phi -55. psi -50.
 conformer beta phi -120. psi 120.
 rotamer exo_43  chi1  -28. chi2  39. 
 rotamer endo44  chi1   28. chi2 -36.
-TORSION PSI* N CA C O O 
-TORSION CHI1 N CA CB CG CG CD
-TORSION CHI2 CA CB CG CD CD
+torsion psi* N CA C O O 
+torsion chi1 N CA CB CG CG CD
+torsion chi2 CA CB CG CD CD
 connect_sc -  N CA    +
-CONNECT_sc N     CD
-CONNECT_sc CA    CB    CG    CD
-CONNECT_ALL -     N     CA    C     +
-CONNECT_ALL N     CD
-CONNECT_ALL CA    CB    CG    CD
-CONNECT_ALL C     O
+connect_sc N     CD
+connect_sc CA    CB    CG    CD
+connect_all -     N     CA    C     +
+connect_all N     CD
+connect_all CA    CB    CG    CD
+connect_all C     O
 connect_mc -     N     CA    C     +
 connect_mc C     O
 bond_distance N    C-      1.341 0.02

@@ -1,6 +1,6 @@
 residue MSP 
 centre CA
-ATOM   N     CA    C     O     CB    CG    \
+atom   N     CA    C     O     CB    CG    \
        SD    OE   NE CE PA O1A O2A O3A OT
 fragment_all  N     CA    C     O     CB    CG   \
               SD    OE   NE CE PA O1A O2A O3A
@@ -22,19 +22,19 @@ rotamer Q20% chi1 -170. chi2  180. chi3   0.
 rotamer Q18% chi1  -60. chi2  -60. chi3   0.
 rotamer Q10% chi1 -170. chi2   70. chi3   0.
 rotamer Q5%  chi1   70. chi2 -170. chi3   0.
-TORSION PSI* N CA C O O OT
-TORSION CHI1 N CA CB CG CG SD    OE   NE CE PA O1A O2A O3A
-TORSION CHI2 CA CB CG SD SD    OE   NE CE PA O1A O2A O3A
-TORSION CHI3 CB CG SD NE NE  OE CE PA O1A O2A O3A
-TORSION CHI5 SD NE PA O1A O1A O2A O3A
-CONNECT_ALL -     N     CA    C     +
-CONNECT_ALL CA    CB    CG    SD    NE PA O1A
-CONNECT_ALL SD    OE
-CONNECT_ALL SD    CE
-CONNECT_ALL O2A    PA
-CONNECT_ALL O3A    PA
-CONNECT_ALL C     O 
-CONNECT_ALL C     OT
+torsion psi* N CA C O O OT
+torsion chi1 N CA CB CG CG SD    OE   NE CE PA O1A O2A O3A
+torsion chi2 CA CB CG SD SD    OE   NE CE PA O1A O2A O3A
+torsion chi3 CB CG SD NE NE  OE CE PA O1A O2A O3A
+torsion chi5 SD NE PA O1A O1A O2A O3A
+connect_all -     N     CA    C     +
+connect_all CA    CB    CG    SD    NE PA O1A
+connect_all SD    OE
+connect_all SD    CE
+connect_all O2A    PA
+connect_all O3A    PA
+connect_all C     O 
+connect_all C     OT
 bond_distance CA   N       1.458 0.02
 bond_distance CB   CA      1.530 0.02
 bond_distance CG   CB      1.520 0.02
