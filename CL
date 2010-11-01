@@ -1,0 +1,8 @@
+residue CL
+ATOM   CL
+fragment_all CL
+fragment_rsr_1 CL
+CONNECT_ALL CL   CL
+CONNECT_mc CL CL
+CONNECT_sc CL CL
+------------------------------------------------------------------------

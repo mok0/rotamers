@@ -1,0 +1,148 @@
+residue G
+centre P
+ATOM   P O1P O2P O5* C5* C4* C3* O3* C2* O2* \
+       C1* O4* N1 C2 N2 N3 C4 C5 C6 O6 N7 C8 N9
+fragment_all P O1P O2P O5* C5* C4* C3* O3* C2* O2* \
+       C1* O4* N1 C2 N2 N3 C4 C5 C6 O6 N7 C8 N9
+fragment_mc P O1P O2P O5* C5* C4* C3* O3* C2* O2* C1* O4*
+fragment_sc N1 C2 N2 N3 C4 C5 C6 O6 N7 C8 N9
+fragment_rsr_1 P O1P O2P O5* C5* C4* C3* O3* C2* O2* C1* O4*
+fragment_rsr_2 N1 C2 N2 N3 C4 C5 C6 O6 N7 C8 N9
+side-chain N1 C2 N2 N3 C4 C5 C6 O6 N7 C8 N9 C2* O2* C1* O4*
+main-chain P O1P O2P O5* C5* C4* C3* O3* 
+alpha   O3*- P    O5*  C5*
+beta    P    O5*  C5*  C4*
+gamma   O5*  C5*  C4*  C3*
+delta   C5*  C4*  C3*  O3*
+epsilon C4*  C3*  O3*  P+
+zeta    C3*  O3*  P+   O5*+
+chi     O4*  C1*  N9   C4
+nu0     C4*  O4*  C1*  C2*
+nu1     O4*  C1*  C2*  C3*
+nu2     C1*  C2*  C3*  C4*
+nu3     C2*  C3*  C4*  O4*
+nu4     C3*  C4*  O4*  C1*
+rotamer 1 chi -152. nu2  37. nu3 -36 nu4 26.
+rotamer 2 chi   28. nu2  37. nu3 -36 nu4 26.
+rotamer 1 chi   28. nu2 -34. nu3  24 nu4 -3.
+rotamer 2 chi -152. nu2 -34. nu3  24 nu4 -3.
+conformer helix alpha -68.
+torsion CHI  O4* C1* N9 C8 C8 C4 C5 N7 N3 C2 N1 C6 O6 N2
+torsion GAMMA*  O4* C4* C5* O5* O5* P O1P O2P
+torsion BETA C4* C5* O5* P P O1P O2P
+torsion ALPHA* C5* O5* P O1P O1P O2P
+torsion CHI* C8 N9 C1* O4* O4* C4* C3* O3* C2* O2* C5* O5* \
+             P O1P O2P
+torsion GAMMA O5* C5* C4* C3* C3* O3* C2* O2* C1* O4* N9 C8 \
+              C4 C5 N7 N3 C2 N1 C6 O6 N2
+CONNECT_ALL - P O5* C5* C4* C3* O3* +
+CONNECT_ALL C4* O4* C1* C2* C3*
+CONNECT_ALL C2* O2*
+CONNECT_ALL C1* N9 C4 C5 N7 C8 N9
+CONNECT_ALL C4 N3 C2 N1 C6 C5
+CONNECT_ALL C2 N2
+CONNECT_ALL C6 O6
+CONNECT_ALL P O1P
+CONNECT_ALL P O2P
+! sugar-phosphate bonds
+bond_distance P    O3*-    1.590 0.02
+bond_distance O1P  P       1.480 0.02
+bond_distance O2P  P       1.480 0.02
+bond_distance O5*  P       1.600 0.02
+bond_distance C5*  O5*     1.440 0.02
+bond_distance C4*  C5*     1.510 0.02
+bond_distance O4*  C4*     1.450 0.02
+bond_distance C1*  O4*     1.410 0.02
+bond_distance C2*  C1*     1.530 0.02
+bond_distance C3*  C4*     1.520 0.02
+bond_distance C2*  C3*     1.530 0.02
+bond_distance O2*  C2*     1.420 0.02
+bond_distance O3*  C3*     1.420 0.02
+! base bonds
+bond_distance N9   C1*     1.480 0.02
+bond_distance C4   N9      1.380 0.02
+bond_distance C8   N9      1.380 0.02
+bond_distance N7   C8      1.310 0.02
+bond_distance C5   N7      1.390 0.02
+bond_distance C4   C5      1.370 0.02
+bond_distance C6   C5      1.420 0.02
+bond_distance O6   C6      1.230 0.02
+bond_distance N1   C6      1.400 0.02
+bond_distance C2   N1      1.390 0.02
+bond_distance N2   C2      1.330 0.02
+bond_distance N3   C2      1.320 0.02
+bond_distance C4   N3      1.360 0.02
+bond_distance C5   C4      1.370 0.02
+bond_distance N9   C4      1.380 0.02
+!sugar-phosphate angles
+bond_angle P    O3*- C3*-  119.000 2.0
+bond_angle O1P  P    O3*-  110.000 2.0
+bond_angle O2P  P    O3*-  110.000 2.0
+bond_angle O1P  P    O5*   110.000 2.0
+bond_angle O2P  P    O5*   110.000 2.0
+bond_angle O1P  P    O2P   110.000 2.0
+bond_angle O5*  P    O3*-  102.000 2.0
+bond_angle C5*  O5*  P     118.000 2.0
+bond_angle C4*  C5*  O5*   110.000 2.0
+bond_angle O4*  C4*  C5*   110.000 2.0
+bond_angle C1*  O4*  C4*   110.000 2.0
+bond_angle C2*  C1*  O4*   107.000 2.0
+bond_angle C3*  C4*  C5*   116.000 2.0
+bond_angle C2*  C3*  C4*   102.000 2.0
+bond_angle O2*  C2*  C3*   114.000 2.0
+bond_angle O2*  C2*  C1*   114.000 2.0
+bond_angle C1*  C2*  C3*   101.000 2.0
+bond_angle O3*  C3*  C4*   112.000 2.0
+bond_angle C2*  C3*  O3*   114.000 2.0
+! base angles
+bond_angle N9   C1*  O4*   108.000 2.0
+bond_angle C4   N9   C1*   126.000 2.0
+bond_angle C8   N9   C1*   129.000 2.0
+bond_angle N7   C8   N9    114.000 2.0
+bond_angle C5   N7   C8    104.000 2.0
+bond_angle C4   C5   N7    111.000 2.0
+bond_angle C6   C5   N7    130.000 2.0
+bond_angle O6   C6   C5    129.000 2.0
+bond_angle N1   C6   C5    111.000 2.0
+bond_angle C2   N1   C6    125.000 2.0
+bond_angle N2   C2   N1    115.000 2.0
+bond_angle N3   C2   N1    124.000 2.0
+bond_angle C4   N3   C2    112.000 2.0
+bond_angle C5   C4   N3    129.000 2.0
+bond_angle N9   C4   N3    125.000 2.0
+!flexible sugar-phosphate
+torsion_flexible O1P  P    O5*  C5*   180.000 20. DUMMY 
+torsion_flexible O2P  P    O5*  C5*    60.000 20. DUMMY
+torsion_flexible C5*  O5*  P    O3*-  -68.000 20. alpha
+torsion_flexible C4*  C5*  O5*  P     178.000 20. beta
+torsion_flexible C3*  C4*  C5*  O5*    54.000 20. gamma
+!torsion_flexible O3*  C3*  C4*  C5*    82.000 20. delta
+torsion_flexible P+   O3*  C3*  C4*  -153.000 20. epsilon
+torsion_flexible O5*+ P+   O3*  C3*   -71.000 20. zeta
+!sugar-phosphate branches
+torsion_fixed    O3*-  P    O5*  O1P   120.000 2.0 branch P
+torsion_fixed    O3*-  P    O5*  O2P  -120.000 2.0 branch P
+torsion_fixed    C5*   C4*  C3*  O4*  -120.000 2.0 branch C4*
+torsion_fixed    O4*   C1*  N9   C2*   120.000 2.0 branch C1*
+torsion_fixed    C4*   C3*  O3*  C2*   120.000 2.0 branch C3*
+torsion_fixed    C3*   C2*  C1*  O2*  -120.000 2.0 branch C2*
+!base torsions, including glycosylic
+torsion_flexible C4    N9   C1*  O4*  -158.000 20.  chi
+torsion_fixed    C1*   N9   C4   C8    180.000 2.0 branch N9
+torsion_fixed    N7    C8   N9   C4      0.000 2.0
+torsion_fixed    C5    N7   C8   N9      0.000 2.0
+torsion_fixed    N7    C5   C6   C4    180.000 2.0 branch C5
+torsion_fixed    C6    C5   N7   C8    180.000 2.0
+torsion_fixed    C5    C6   N1   O6    180.000 2.0 branch C6
+torsion_fixed    N1    C6   C5   N7    180.000 2.0
+torsion_fixed    C2    N1   C6   C5      0.000 2.0
+torsion_fixed    N3    C2   N1   C6      0.000 2.0
+torsion_fixed    C4    N3   C2   N1      0.000 2.0
+torsion_fixed    N3    C2   N1   N2    180.    2.0 branch C2
+torsion_fixed    N3    C4   N9   C5    180.000 2.0 branch C4
+torsion_fixed    N9    C4   N3   C2    180.000 2.0
+! sugar pucker, flexible (Phil Evans' advice). note Delta is flagged as flexible
+torsion_flexible    C1*   C2*  C3*  C4*    37.    2.0 nu2
+torsion_flexible    C2*   C3*  C4*  O4*   -36.    2.0 nu3
+torsion_flexible    C3*   C4*  O4*  C1*    26.    2.0 nu4
+------------------------------------------------------------------------

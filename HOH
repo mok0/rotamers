@@ -1,0 +1,8 @@
+residue HOH
+ATOM O
+fragment_all O
+fragment_rsr_1 O 
+CONNECT_ALL O O
+CONNECT_mc O O
+CONNECT_sc O O
+------------------------------------------------------------------------

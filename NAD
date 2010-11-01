@@ -1,0 +1,179 @@
+residue NAD
+ATOM N9A C8A C4A C5A N7A C8A N9A N3A C2A N1A C6A N10A C1R O5R C4R \
+     C2R C3R O3R C5R O6R PA OP1A OP2A OP3 PN OP1N OP2N O6Q C5Q C4Q \
+     O5Q O3Q C3Q C2Q C1Q N1N C2N C3N C4N C5N C6N C7N O1N N2N
+bond_distance N9A  C8A     1.360 0.02
+bond_distance C4A  N9A     1.380 0.02
+bond_distance C5A  C4A     1.380 0.02
+bond_distance N7A  C5A     1.380 0.02
+bond_distance C8A  N7A     1.330 0.02
+bond_distance N9A  C8A     1.360 0.02
+bond_distance N3A  C4A     1.350 0.02
+bond_distance C2A  N3A     1.300 0.02
+bond_distance N1A  C2A     1.370 0.02
+bond_distance C6A  N1A     1.360 0.02
+bond_distance N10A C6A     1.330 0.02
+bond_distance C5A  C6A     1.410 0.02
+bond_distance N1A  C6A     1.360 0.02
+bond_distance C2A  N1A     1.370 0.02
+bond_distance C1R  N9A     1.460 0.02
+bond_distance O5R  C1R     1.400 0.02
+bond_distance C4R  O5R     1.450 0.02
+bond_distance C2R  C1R     1.520 0.02
+bond_distance O2R  C2R     1.440 0.02
+bond_distance C3R  C2R     1.530 0.02
+bond_distance O3R  C3R     1.440 0.02
+bond_distance C4R  C3R     1.520 0.02
+bond_distance O5R  C4R     1.450 0.02
+bond_distance C5R  C4R     1.510 0.02
+bond_distance O6R  C5R     1.440 0.02
+bond_distance PA   O6R     1.600 0.02
+bond_distance OP1A PA      1.480 0.02
+bond_distance OP2A PA      1.480 0.02
+bond_distance OP3  PA      1.560 0.02
+bond_distance PN   OP3     1.650 0.02
+bond_distance OP1N PN      1.480 0.02
+bond_distance OP2N PN      1.480 0.02
+bond_distance O6Q  PN      1.600 0.02
+bond_distance C5Q  O6Q     1.440 0.02
+bond_distance C4Q  C5Q     1.510 0.02
+bond_distance O5Q  C4Q     1.450 0.02
+bond_distance C1Q  O5Q     1.400 0.02
+bond_distance C3Q  C4Q     1.520 0.02
+bond_distance O3Q  C3Q     1.440 0.02
+bond_distance C2Q  C3Q     1.530 0.02
+bond_distance O2Q  C2Q     1.440 0.02
+bond_distance C1Q  C2Q     1.520 0.02
+bond_distance O5Q  C1Q     1.400 0.02
+bond_distance C4Q  O5Q     1.450 0.02
+bond_distance N1N  C1Q     1.470 0.02
+bond_distance C6N  N1N     1.390 0.02
+bond_distance C5N  C6N     1.360 0.02
+bond_distance C4N  C5N     1.400 0.02
+bond_distance C3N  C4N     1.420 0.02
+bond_distance C2N  C3N     1.370 0.02
+bond_distance C2N  N1N     1.350 0.02
+bond_distance C3N  C2N     1.370 0.02
+bond_distance C4N  C3N     1.420 0.02
+bond_distance C5N  C4N     1.400 0.02
+bond_distance C7N  C3N     1.580 0.02
+bond_distance O1N  C7N     1.220 0.02
+bond_distance N2N  C7N     1.350 0.02
+bond_angle C4A  N9A  C8A   106.000 2.0
+bond_angle C5A  C4A  N9A   106.000 2.0
+bond_angle N7A  C5A  C4A   111.000 2.0
+bond_angle C8A  N7A  C5A   104.000 2.0
+bond_angle N9A  C8A  N7A   113.000 2.0
+bond_angle N3A  C4A  N9A   127.000 2.0
+bond_angle C2A  N3A  C4A   111.000 2.0
+bond_angle N1A  C2A  N3A   129.000 2.0
+bond_angle C6A  N1A  C2A   119.000 2.0
+bond_angle N10A C6A  N1A   119.000 2.0
+bond_angle C5A  C6A  N1A   117.000 2.0
+bond_angle C6A  C5A  C4A   117.000 2.0
+bond_angle N1A  C6A  C5A   117.000 2.0
+bond_angle C2A  N1A  C6A   119.000 2.0
+bond_angle C1R  N9A  C8A   129.000 2.0
+bond_angle O5R  C1R  N9A   111.000 2.0
+bond_angle C4R  O5R  C1R   110.000 2.0
+bond_angle C2R  C1R  N9A   113.000 2.0
+bond_angle O2R  C2R  C1R   111.000 2.0
+bond_angle C3R  C2R  C1R   103.000 2.0
+bond_angle O3R  C3R  C4R   116.000 2.0
+bond_angle O3R  C3R  C2R   116.000 2.0
+bond_angle C4R  C3R  C2R   100.000 2.0
+bond_angle O5R  C4R  C3R   105.000 2.0
+bond_angle C1R  O5R  C4R   110.000 2.0
+bond_angle C5R  C4R  C3R   116.000 2.0
+bond_angle O6R  C5R  C4R   110.000 2.0
+bond_angle PA   O6R  C5R   119.000 2.0
+bond_angle OP1A PA   O6R   110.000 2.0
+bond_angle OP2A PA   O6R   110.000 2.0
+bond_angle OP3  PA   O6R   101.000 2.0
+bond_angle PN   OP3  PA    133.000 2.0
+bond_angle OP1N PN   OP3   110.000 2.0
+bond_angle OP2N PN   OP3   110.000 2.0
+bond_angle O6Q  PN   OP3   101.000 2.0
+bond_angle C5Q  O6Q  PN    119.000 2.0
+bond_angle C4Q  C5Q  O6Q   110.000 2.0
+bond_angle O5Q  C4Q  C5Q   109.000 2.0
+bond_angle C1Q  O5Q  C4Q   110.000 2.0
+bond_angle C3Q  C4Q  C5Q   116.000 2.0
+bond_angle O3Q  C3Q  C4Q   115.000 2.0
+bond_angle O3Q  C3Q  C2Q   115.000 2.0
+bond_angle C2Q  C3Q  C4Q   100.000 2.0
+bond_angle O2Q  C2Q  C3Q   108.000 2.0
+bond_angle C1Q  C2Q  C3Q   103.000 2.0
+bond_angle O5Q  C1Q  C2Q   106.000 2.0
+bond_angle C4Q  O5Q  C1Q   110.000 2.0
+bond_angle N1N  C1Q  C2Q   113.000 2.0
+bond_angle C6N  N1N  C1Q   120.000 2.0
+bond_angle C5N  C6N  N1N   113.000 2.0
+bond_angle C4N  C5N  C6N   128.000 2.0
+bond_angle C3N  C4N  C5N   113.000 2.0
+bond_angle C2N  C3N  C4N   123.000 2.0
+bond_angle C2N  N1N  C1Q   120.000 2.0
+bond_angle C3N  C2N  N1N   120.000 2.0
+bond_angle C4N  C3N  C2N   123.000 2.0
+bond_angle C5N  C4N  C3N   113.000 2.0
+bond_angle C7N  C3N  C2N   122.000 2.0
+bond_angle O1N  C7N  C3N   120.000 2.0
+bond_angle N2N  C7N  C3N   116.000 2.0
+torsion_fixed C8A  N9A  C1R  C4A   180.000 2.0
+torsion_fixed N9A  C4A  N3A  C5A   180.000 2.0
+torsion_fixed C4A  C5A  C6A  N7A   180.000 2.0
+torsion_fixed C8A  N7A  C5A  C4A     0.000 2.0
+torsion_fixed N9A  C8A  N7A  C5A     0.000 2.0
+torsion_fixed N3A  C4A  N9A  C8A   180.000 2.0
+torsion_fixed C2A  N3A  C4A  N9A   180.000 2.0
+torsion_fixed N1A  C2A  N3A  C4A     0.000 2.0
+torsion_fixed C6A  N1A  C2A  N3A     0.000 2.0
+torsion_fixed N1A  C6A  C5A  N10A  180.000 2.0
+torsion_fixed C5A  C6A  N1A  C2A     0.000 2.0
+torsion_fixed C6A  C5A  C4A  N9A   180.000 2.0
+torsion_fixed N1A  C6A  C5A  C4A     0.000 2.0
+torsion_fixed C2A  N1A  C6A  C5A     0.000 2.0
+torsion_fixed N9A  C1R  C2R  O5R   120.000 2.0
+torsion_fixed C4R  O5R  C1R  N9A  -144.000 2.0
+torsion_flexible C2R  C1R  N9A  C8A     0.000 20.
+torsion_fixed C1R  C2R  C3R  O2R   120.000 2.0
+torsion_fixed C3R  C2R  C1R  N9A   157.000 2.0
+torsion_fixed C2R  C3R  C4R  O3R   120.000 2.0
+torsion_fixed C4R  C3R  C2R  C1R   -35.000 2.0
+torsion_fixed C3R  C4R  C5R  O5R   120.000 2.0
+torsion_fixed C1R  O5R  C4R  C3R     0.000 2.0
+torsion_fixed C5R  C4R  C3R  C2R   -98.000 2.0
+torsion_flexible O6R  C5R  C4R  C3R   180.000 20.
+torsion_flexible PA   O6R  C5R  C4R   180.000 20.
+torsion_fixed O6R  PA   OP3  OP1A -120.000 2.0
+torsion_fixed O6R  PA   OP3  OP2A  120.000 2.0
+torsion_flexible OP3  PA   O6R  C5R   180.000 20.
+torsion_flexible PN   OP3  PA   O6R   180.000 20.
+torsion_fixed OP3  PN   O6Q  OP1N -120.000 2.0
+torsion_fixed OP3  PN   O6Q  OP2N  120.000 2.0
+torsion_flexible O6Q  PN   OP3  PA    180.000 20.
+torsion_flexible C5Q  O6Q  PN   OP3   180.000 20.
+torsion_flexible C4Q  C5Q  O6Q  PN    180.000 20.
+torsion_fixed C5Q  C4Q  C3Q  O5Q  -120.000 2.0
+torsion_fixed C1Q  O5Q  C4Q  C5Q   120.000 2.0
+torsion_flexible C3Q  C4Q  C5Q  O6Q   180.000 20.
+torsion_fixed C4Q  C3Q  C2Q  O3Q  -120.000 2.0
+torsion_fixed C2Q  C3Q  C4Q  C5Q   -98.000 2.0
+torsion_fixed C3Q  C2Q  C1Q  O2Q  -120.000 2.0
+torsion_fixed C1Q  C2Q  C3Q  C4Q   -36.000 2.0
+torsion_fixed C2Q  C1Q  N1N  O5Q  -120.000 2.0
+torsion_fixed C4Q  O5Q  C1Q  C2Q   -24.000 2.0
+torsion_fixed N1N  C1Q  C2Q  C3Q   157.000 2.0
+torsion_fixed C1Q  N1N  C2N  C6N   180.000 2.0
+torsion_fixed C5N  C6N  N1N  C1Q   180.000 2.0
+torsion_fixed C4N  C5N  C6N  N1N     0.000 2.0
+torsion_fixed C3N  C4N  C5N  C6N     0.000 2.0
+torsion_fixed C2N  C3N  C4N  C5N     0.000 2.0
+torsion_flexible C2N  N1N  C1Q  C2Q     0.000 20.
+torsion_fixed C3N  C2N  N1N  C1Q   180.000 2.0
+torsion_fixed C2N  C3N  C7N  C4N   180.000 2.0
+torsion_fixed C5N  C4N  C3N  C2N     0.000 2.0
+torsion_fixed C7N  C3N  C2N  N1N   180.000 2.0
+torsion_fixed C3N  C7N  N2N  O1N   180.000 2.0
+torsion_flexible N2N  C7N  C3N  C2N     0.000 20.
+------------------------------------------------------------------------

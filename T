@@ -1,0 +1,13 @@
+residue T
+TORSION ALPH  O3*- P O5* C5* C5* C4* O4* C1* C2* C3* O3* N1 C2 N3 \
+              C4 C5 C6 O2 O4 C5A
+TORSION BETA  P O5* C5* C4* C4* O4* C1* C2* C3* O3* N1 C2 N3 \
+              C4 C5 C6 O2 O4 C5A
+TORSION GAMM  O5* C5* C4* C3* O4* C1* C2* C3* O3* N1 C2 N3 \
+              C4 C5 C6 O2 O4 C5A
+TORSION DELT  C5* C4* C3* O3* O4* C1* C2* O3* N1 C2 N3 \
+              C4 C5 C6 O2 O4 C5A
+TORSION EPSI  C4* C3* O3* P+
+TORSION ZETA  C3* O3* P+ O5*+
+TORSION CHI   O4* C1* N1 C2 N1 C2 N3 \
+              C4 C5 C6 O2 O4 C5A

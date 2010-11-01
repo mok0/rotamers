@@ -1,0 +1,8 @@
+residue SOL
+ATOM   OHH
+fragment_all OHH
+fragment_rsr_1 OHH
+CONNECT_ALL OHH   OHH
+CONNECT_mc OHH OHH
+CONNECT_sc OHH OHH
+------------------------------------------------------------------------

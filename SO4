@@ -1,0 +1,32 @@
+residue SO4 
+ATOM S O1 O2 O3 O4
+centre S
+connect_all S O1
+connect_all S O2
+connect_all S O3
+connect_all S O4
+connect_mc S O1
+connect_mc S O2
+connect_mc S O3
+connect_mc S O4
+connect_sc S O1
+connect_sc S O2
+connect_sc S O3
+connect_sc S O4
+fragment_all S O1 O2 O3 O4
+fragment_rsr_1 S O1 O2 O3 O4
+bond_distance O1   S       1.450 0.02
+bond_distance O2   S       1.450 0.02
+bond_distance O3   S       1.450 0.02
+bond_distance O4   S       1.450 0.02
+bond_angle    O1   S   O2  110. 2.
+bond_angle    O1   S   O3  110. 2.
+bond_angle    O1   S   O4  110. 2.
+bond_angle    O2   S   O3  110. 2.
+bond_angle    O2   S   O4  110. 2.
+bond_angle    O3   S   O4  110. 2.
+torsion_fixed O2 S O1 O4  120. 2.
+torsion_fixed O2 S O1 O3 -120. 2.
+------------------------------------------------------------------------
+---- here come my standard nucleic acids
+------------------------------------------------------------------------
