@@ -1,0 +1,76 @@
+residue MEP
+centre P
+atom   C1 C2 C3 C4 C5 O1 O2 O3 O4 O1P O2P O3P P
+fragment_all C1 C2 C3 C4 C5 O1 O2 O3 O4 O1P O2P O3P P
+fragment_mc  C1 C2 C3 C4 C5 O1 O2 O3 O4 O1P O2P O3P P
+fragment_sc  C1 C2 C3 C4 C5 O1 O2 O3 O4 O1P O2P O3P P
+fragment_rsr_1 O1 C1 C2
+fragment_rsr_2 C1 C2 C3 O2 C5
+fragment_rsr_3 C2 C3 O3 C4
+fragment_rsr_4  C3 C4 O4
+fragment_rsr_5  C4 O4 P
+fragment_rsr_6  O5 P O1P O2P O3P
+torsion TOR1 C1 C2 C3 C4 C4 O4 P O3 O1P O2P O3P
+torsion TOR2 C2 C3 C4 O4 O4 P  O1P O2P O3P
+torsion TOR3 C3 C4 O4 O4 P O1P O2P O3P
+torsion TOR* C3 C2 C1 O1 O1
+connect_sc O1 C1 C2 C3 C4 O4 P O1P
+connect_sc C2 O2
+connect_sc C2 C5
+connect_sc C3 O3
+connect_sc P O2P
+connect_sc P O3P
+connect_all O1 C1 C2 C3 C4 O4 P O1P
+connect_all C2 O2
+connect_all C2 C5
+connect_all C3 O3
+connect_all P O2P
+connect_all P O3P
+connect_Mc O1 C1 C2 C3 C4 O4 P O1P
+connect_Mc C2 O2
+connect_Mc C2 C5
+connect_Mc C3 O3
+connect_Mc P O2P
+connect_Mc P O3P
+bond_distance O1 C1 1.43 0.02
+bond_distance C1 C2 1.52 0.02
+bond_distance C2 C3 1.52 0.02
+bond_distance C2 O2 1.43 0.02
+bond_distance C2 C5 1.52 0.02
+bond_distance C3 C4 1.52 0.02
+bond_distance C3 O3 1.43 0.02
+bond_distance C4 O4 1.43 0.02
+bond_distance O4 P  1.61 0.02
+bond_distance P O1P 1.50 0.02
+bond_distance P O2P 1.50 0.02
+bond_distance P O3P 1.50 0.02
+bond_angle O1 C1 C2 110.0 2.0
+bond_angle C1 C2 C3 110.0 2.0
+bond_angle C1 C2 O2 110.0 2.0
+bond_angle C3 C2 O2 110.0 2.0
+bond_angle C1 C2 C5 110.0 2.0
+bond_angle C3 C2 C5 110.0 2.0
+bond_angle O2 C2 C5 110.0 2.0
+bond_angle C2 C3 C4 110.0 2.0
+bond_angle C2 C3 O3 110.0 2.0
+bond_angle C4 C3 O3 110.0 2.0
+bond_angle C3 C4 O4 110.0 2.0
+bond_angle C4 O4 P  107.0 2.0
+bond_angle O4 P O1P 110.0 2.0
+bond_angle O4 P O2P 110.0 2.0
+bond_angle O4 P O3P 110.0 2.0
+bond_angle O1P P O2P 110.0 2.0
+bond_angle O1P P O3P 110.0 2.0
+bond_angle O2P P O3P 110.0 2.0
+!flexible torsions
+torsion_flexible O1 C1 C2 C3 180.0 20.0
+torsion_flexible C1 C2 C3 C4 180.0 20.0
+torsion_flexible C2 C3 C4 O4 180.0 20.0
+torsion_flexible C3 C4 O4 P  180.0 20.0
+torsion_flexible C4 O4 P O1P 180.0 20.0
+!fixed torsions
+torsion_fixed C1 C2 C3 O2  120.0 2.0
+torsion_fixed C1 C2 C3 C5 -120.0 2.0
+torsion_fixed C2 C3 C4 O3  120.0 2.0
+torsion_fixed O4 P O1P O2P 120.0 2.0
+torsion_fixed O4 P O1P O3P -120.0 2.0

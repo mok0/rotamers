@@ -1,0 +1,7 @@
+residue MG
+atom   MG
+fragment_all MG
+fragment_rsr_1 MG
+connect_all MG   MG
+connect_mc MG MG
+connect_sc MG MG

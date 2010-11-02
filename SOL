@@ -1,8 +1,0 @@
-residue SOL
-atom   OHH
-fragment_all OHH
-fragment_rsr_1 OHH
-connect_all OHH   OHH
-connect_mc OHH OHH
-connect_sc OHH OHH
-------------------------------------------------------------------------
