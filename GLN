@@ -1,4 +1,4 @@
-residue GLN 
+residue GLN Q
 centre CA
 atom   N     CA    C     O     CB    CG    CD    OE1   NE2
 fragment_all  N     CA    C     O     CB    CG    CD    OE1   NE2

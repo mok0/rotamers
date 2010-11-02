@@ -1,4 +1,4 @@
-residue VAL 
+residue VAL V
 centre CA
 atom   N     CA    C     O     CB    CG1   CG2
 fragment_all N     CA    C     O     CB    CG1   CG2
@@ -6,7 +6,7 @@ fragment_mc N     CA    C     O     CB
 fragment_sc CB CG1 CG2
 fragment_rsr_1 CA C O N+ CA+
 fragment_rsr_2 N CA CB C
-fragment_rsr_3  CB CG1 CG2
+fragment_rsr_3  CA CB CG1 CG2
 side-chain CB CG1 CG2
 main-chain N CA C O CB
 chi1 N CA CB CG1

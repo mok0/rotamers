@@ -1,4 +1,4 @@
-residue ASN 
+residue ASN N
 centre CA
 atom   N     CA    C     O     CB    CG    OD1   ND2
 fragment_all  N     CA    C     O     CB    CG    OD1   ND2

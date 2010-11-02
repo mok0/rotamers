@@ -1,4 +1,4 @@
-residue TRP 
+residue TRP W
 centre CA
 atom   N     CA    C     O     CB    CG    CD1   CD2   NE1   CE2 \
        CE3   CZ2   CZ3   CH2
@@ -95,6 +95,10 @@ torsion_fixed    CH2  CZ3  CE3  CD2     0.000 2.0
 torsion_fixed    CH2  CZ2  CE2  NE1   180.000 2.0
 torsion_fixed    CZ2  CH2  CZ3  CE3     0.000 2.0
 torsion_fixed    CE2  CZ2  CH2  CZ3     0.000 2.0
+torsion_fixed    CE3  CD2  CG   CB      0.000 2.0
+torsion_fixed    CE3  CD2  CG   CD1   180.000 2.0
+torsion_fixed    CZ2  CE2  CD2  CG    180.000 2.0
+torsion_fixed    CZ2  CE2  NE1  CD1    180.000 2.0
 !main-chain torsions
 torsion_fixed    CA   C    N+   CA+   180.000 2.0
 torsion_fixed    N    CA   C    CB   -123.000 2.0

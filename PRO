@@ -1,11 +1,11 @@
-residue PRO 
+residue PRO P
 centre CA
 atom   N     CA    C     O     CB    CG    CD
 fragment_all N     CA    C     O     CB    CG    CD
 fragment_mc N     CA    C     O     CB
 fragment_sc CB CG CD
 fragment_rsr_1 CA C O N+ CA+
-fragment_rsr_2 N CA CB CG CD C
+fragment_rsr_2 N CA CB CG CD 
 side-chain CB CG CD
 main-chain N CA C O CB
 chi1 N CA CB CG

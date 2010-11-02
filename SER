@@ -1,4 +1,4 @@
-residue SER 
+residue SER S
 centre CA
 atom   N     CA    C     O     CB    OG
 fragment_all N     CA    C     O     CB    OG

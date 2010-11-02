@@ -1,4 +1,4 @@
-residue MET 
+residue MET M
 centre CA
 atom   N     CA    C     O     CB    CG    SD    CE
 fragment_all N     CA    C     O     CB    CG    SD    CE

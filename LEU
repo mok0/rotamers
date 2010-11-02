@@ -1,4 +1,4 @@
-residue LEU 
+residue LEU L
 centre CA
 atom   N     CA    C     O     CB    CG    CD1   CD2
 fragment_all N     CA    C     O     CB    CG    CD1   CD2

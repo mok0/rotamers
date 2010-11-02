@@ -1,23 +1,21 @@
-residue A A
+residue AMP
 centre P
-atom   P OP1 OP2 O5' C5' C4' C3' O3' C2' O2' \
+ATOM   P OP1 OP2 OP3 O5' C5' C4' C3' O3' C2' O2' \
        C1' O4' N1 C2 N3 C4 C5 C6 N6 N7 C8 N9
-fragment_all P OP1 OP2 O5' C5' C4' C3' O3' C2' O2' \
+fragment_all P OP1 OP2 OP3 O5' C5' C4' C3' O3' C2' O2' \
        C1' O4' N1 C2 N3 C4 C5 C6 N6 N7 C8 N9
-fragment_mc P OP1 OP2 O5' C5' C4' C3' O3' C2' O2' C1' O4'
+fragment_mc P OP1 OP2 OP3 O5' C5' C4' C3' O3' C2' O2' C1' O4'
 fragment_sc N1 C2 N3 C4 C5 C6 N6 N7 C8 N9
 fragment_rsr_1 C1' O4' C5' C4' C3' O3' C2' O2' 
-fragment_rsr_2 P OP1 OP2 O5' 
+fragment_rsr_2 P OP1 OP2 OP3 O5' 
 fragment_rsr_3 N1 C2 N3 C4 C5 C6 N6 N7 C8 N9
 fragment_rsr_4 C4' C5' O5'
 side-chain N1 C2 N3 C4 C5 C6 N6 N7 C8 N9 O2' C1' O4' C2' 
-main-chain P OP1 OP2 O5' C5' C4' C3' O3' 
-alpha   O3'- P    O5'  C5'
+main-chain P OP1 OP2 OP3 O5' C5' C4' C3' O3' 
+alpha   OP3  P    O5'  C5'
 beta    P    O5'  C5'  C4'
 gamma   O5'  C5'  C4'  C3'
 delta   C5'  C4'  C3'  O3'
-epsilon C4'  C3'  O3'  P+
-zeta    C3'  O3'  P+   O5'+
 chi     O4'  C1'  N9   C4
 nu0     C4'  O4'  C1'  C2'
 nu1     O4'  C1'  C2'  C3'
@@ -29,24 +27,24 @@ rotamer 2 chi   28. nu2  37. nu3 -36 nu4 26.
 rotamer 1 chi   28. nu2 -34. nu3  24 nu4 -3.
 rotamer 2 chi -152. nu2 -34. nu3  24 nu4 -3.
 conformer helix alpha -68.
-torsion chi  O4' C1' N9 C8 C8 C4 C5 N7 N3 C2 N1 C6 N6
-torsion gamma  O4' C4' C5' O5' O5' P OP1 OP2
-torsion beta C4' C5' O5' P P OP1 OP2
-torsion alpha C5' O5' P OP1 OP1 OP2
-torsion chi* C8 N9 C1' O4' O4' C4' C3' O3' C2' O2' C5' O5' \
-             P OP1 OP2
-torsion gamma* O5' C5' C4' C3' C3' O3' C2' O2' C1' O4' N9 C8 \
+torsion CHI  O4' C1' N9 C8 C8 C4 C5 N7 N3 C2 N1 C6 N6
+torsion GAMMA  O4' C4' C5' O5' O5' P OP1 OP2 OP3
+torsion BETA C4' C5' O5' P P OP1 OP2 OP3
+torsion ALPHA C5' O5' P OP3 OP3 OP1 OP2
+torsion CHI* C8 N9 C1' O4' O4' C4' C3' O3' C2' O2' C5' O5' \
+             P OP1 OP2 OP3
+torsion GAMMA* O5' C5' C4' C3' C3' O3' C2' O2' C1' O4' N9 C8 \
               C4 C5 N7 N3 C2 N1 C6 N6
-connect_all - P O5' C5' C4' C3' O3' +
-connect_all C4' O4' C1' C2' C3'
-connect_all C2' O2'
-connect_all C1' N9 C4 C5 N7 C8 N9
-connect_all C4 N3 C2 N1 C6 C5
-connect_all C6 N6
-connect_all P OP1
-connect_all P OP2
+CONNECT_ALL OP3 P O5' C5' C4' C3' O3'
+CONNECT_ALL C4' O4' C1' C2' C3'
+CONNECT_ALL C2' O2'
+CONNECT_ALL C1' N9 C4 C5 N7 C8 N9
+CONNECT_ALL C4 N3 C2 N1 C6 C5
+CONNECT_ALL C6 N6
+CONNECT_ALL P OP1
+CONNECT_ALL P OP2
 ! sugar-phosphate bonds
-bond_distance P    O3'-    1.590 0.02
+bond_distance P    OP3     1.590 0.02
 bond_distance OP1  P       1.480 0.02
 bond_distance OP2  P       1.480 0.02
 bond_distance O5'  P       1.600 0.02
@@ -75,13 +73,12 @@ bond_distance C4   N3      1.340 0.02
 bond_distance C5   C4      1.370 0.02
 bond_distance N9   C4      1.370 0.02
 !sugar-phosphate angles
-bond_angle P    O3'- C3'-  119.000 2.0
-bond_angle OP1  P    O3'-  110.000 2.0
-bond_angle OP2  P    O3'-  110.000 2.0
+bond_angle OP1  P    OP3   110.000 2.0
+bond_angle OP2  P    OP3   110.000 2.0
 bond_angle OP1  P    O5'   110.000 2.0
 bond_angle OP2  P    O5'   110.000 2.0
 bond_angle OP1  P    OP2   110.000 2.0
-bond_angle O5'  P    O3'-  102.000 2.0
+bond_angle O5'  P    OP3   102.000 2.0
 bond_angle C5'  O5'  P     118.000 2.0
 bond_angle C4'  C5'  O5'   110.000 2.0
 bond_angle O4'  C4'  C5'   110.000 2.0
@@ -112,15 +109,13 @@ bond_angle N9   C4   N3    126.000 2.0
 !flexible sugar-phosphate
 torsion_flexible OP1  P    O5'  C5'   180.000 20. DUMMY 
 torsion_flexible OP2  P    O5'  C5'    60.000 20. DUMMY
-torsion_flexible C5'  O5'  P    O3'-  -68.000 20. alpha
+torsion_flexible C5'  O5'  P    OP3   -68.000 20. alpha
 torsion_flexible C4'  C5'  O5'  P     178.000 20. beta
 torsion_flexible C3'  C4'  C5'  O5'    54.000 20. gamma
 !torsion_flexible O3'  C3'  C4'  C5'    82.000 20. delta
-torsion_flexible P+   O3'  C3'  C4'  -153.000 20. epsilon
-torsion_flexible O5'+ P+   O3'  C3'   -71.000 20. zeta
 !sugar-phosphate branches
-torsion_fixed    O3'-  P    O5'  OP1  -120.000 2.0 branch P
-torsion_fixed    O3'-  P    O5'  OP2   120.000 2.0 branch P
+torsion_fixed    OP3  P    O5'  OP1  -120.000 2.0 branch P
+torsion_fixed    OP3  P    O5'  OP2   120.000 2.0 branch P
 torsion_fixed    C5'   C4'  C3'  O4'  -120.000 2.0 branch C4'
 torsion_fixed    O4'   C1'  N9   C2'   120.000 2.0 branch C1'
 torsion_fixed    C4'   C3'  O3'  C2'   120.000 2.0 branch C3'

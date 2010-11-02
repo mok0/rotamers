@@ -1,4 +1,4 @@
-residue CYS 
+residue CYS C
 centre CA
 atom   N     CA    C     O    CB    SG
 fragment_all N     CA    C     O    CB    SG

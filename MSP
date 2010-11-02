@@ -50,34 +50,27 @@ torsion_flexible N CA C O 180. 2.
 torsion_flexible CG   CB   CA   N     -60.000 20.
 !main-chain torsions
 torsion_fixed    N    CA   C    CB   -123.000 2.0
-
 bond_distance SD   CG      1.80 0.02
 bond_angle SD   CG   CB    114.0 2.0
 torsion_flexible SD   CG   CB   CA    180.000 20.
-
 bond_distance NE   SD      1.54 0.02
 bond_angle NE   SD   CG    110.5 2.0
 torsion_flexible NE   SD   CG   CB      180.000 20.
 bond_distance OE   SD      1.46 0.02
 bond_angle OE   SD   CG    106.8 2.0
 torsion_fixed    CG   SD   NE   OE   120.000 2.0
-
 bond_distance CE   SD      1.76 0.02
 bond_angle CE   SD   CG    105. 2.0
 torsion_fixed    CG   SD   NE   CE   -120.000 2.0
-
 bond_angle NE   SD   OE   120. 2.0
 bond_angle NE   SD   CE   104. 2.0
 bond_angle CE   SD   OE   110. 2.0
-
 bond_distance NE PA 1.6 .02
 bond_angle PA NE SD  120. 2.0
 torsion_fixed PA NE SD CG 180. 2.
-
 bond_distance PA O1A 1.5 .02
 bond_angle O1A PA NE 112. 2.
 torsion_flexible O1A PA NE SD 180. 20.
-
 bond_distance PA O2A 1.5 .02
 bond_angle O2A PA NE 112. 2.
 torsion_fixed NE PA O1A O2A 120. 20.
@@ -87,10 +80,6 @@ torsion_fixed NE PA O1A O3A -120. 20.
 bond_angle O3A PA O1A 112. 2.
 bond_angle O2A PA O1A 112. 2.
 bond_angle O3A PA O2A 112. 2.
-
-
 bond_distance OT    C       1.231 0.02
 bond_angle OT    C    CA    120.800 2.0
 torsion_fixed CA C O OT 180. 2.
-------------------------------------------------------------------------
-! these are from Phil Evan's Nucleic Acid torsion dictionary, but '->*

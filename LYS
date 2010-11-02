@@ -1,4 +1,4 @@
-residue LYS 
+residue LYS K
 centre CA
 atom   N     CA    C     O     CB    CG    CD    CE    NZ
 fragment_all N     CA    C     O     CB    CG    CD    CE    NZ
@@ -6,9 +6,10 @@ fragment_mc N     CA    C     O     CB
 fragment_sc CB CG  CD  CE  NZ
 fragment_rsr_1 CA C O N+ CA+
 fragment_rsr_2 N CA CB C
-fragment_rsr_3 CB CG CD
-fragment_rsr_4 CD CE  NZ
-!fragment_rsr_3 CA CB CG
+fragment_rsr_3 CA CB CG
+fragment_rsr_4 CB CG CD
+fragment_rsr_5 CG CD  CE
+fragment_rsr_6 CD CE  NZ
 !fragment_rsr_4 CB CG CD
 !fragment_rsr_5 CG CD  CE
 !fragment_rsr_6 CD  CE  NZ

@@ -70,3 +70,4 @@ torsion_fixed    N    CA   C    CB   -123.000 2.0
 torsion_fixed    CA   C    N+   O     180.000 2.0
 torsion_flexible C-   N    CA   C     -55.000 20.
 torsion_flexible N    CA   C    N+    -50.000 20.
+------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-residue GLY 
+residue GLY G
 centre CA
 atom   N     CA    C     O
 fragment_all  N     CA    C     O
@@ -12,7 +12,7 @@ omega CA  C   N+  CA+
 conformer alpha phi -55. psi -50.
 conformer beta phi -120. psi 120.
 conformer aleft phi 50. psi 38.
-torsion phi C- N CA C C O O
+torsion phi C- N CA C C O 
 torsion psi* N CA C O O
 connect_sc -  CA    +
 connect_all -     N     CA    C     +

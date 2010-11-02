@@ -1,4 +1,4 @@
-residue HIS 
+residue HIS H
 centre CA
 atom   N     CA    C     O     CB    CG    ND1   CD2   CE1   NE2
 fragment_all  N     CA    C     O     CB    CG    ND1   CD2   CE1   NE2
@@ -46,7 +46,7 @@ bond_distance ND1  CG      1.378 0.02
 bond_distance CE1  ND1     1.321 0.02
 bond_distance NE2  CE1     1.321 0.02
 bond_distance CD2  NE2     1.374 0.02
-bond_distance CG   CD2     1.354 0.02
+!bond_distance CG   CD2     1.354 0.02
 bond_distance C    CA      1.525 0.02
 bond_distance O    C       1.231 0.02
 bond_angle N    C-   CA-   116.200 2.0

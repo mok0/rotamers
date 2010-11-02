@@ -1,0 +1,30 @@
+residue PO4 
+ATOM P O1 O2 O3 O4
+centre P
+connect_all P O1
+connect_all P O2
+connect_all P O3
+connect_all P O4
+connect_mc P O1
+connect_mc P O2
+connect_mc P O3
+connect_mc P O4
+connect_sc P O1
+connect_sc P O2
+connect_sc P O3
+connect_sc P O4
+fragment_all P O1 O2 O3 O4
+fragment_rsr_1 P O1 O2 O3 O4
+bond_distance O1   P       1.480 0.02
+bond_distance O2   P       1.480 0.02
+bond_distance O3   P       1.480 0.02
+bond_distance O4   P       1.480 0.02
+bond_angle    O1   P   O2  110. 2.
+bond_angle    O1   P   O3  110. 2.
+bond_angle    O1   P   O4  110. 2.
+bond_angle    O2   P   O3  110. 2.
+bond_angle    O2   P   O4  110. 2.
+bond_angle    O3   P   O4  110. 2.
+torsion_fixed O2 P O1 O4  120. 2.
+torsion_fixed O2 P O1 O3 -120. 2.
+------------------------------------------------------------------------

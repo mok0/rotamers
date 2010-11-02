@@ -1,11 +1,11 @@
-residue ALA 
+residue ALA A
 centre CA
-ATOM   N     CA    C     O     CB
+atom   N     CA    C     O     CB
 fragment_all N     CA    C     O     CB
 fragment_mc N     CA    C     O     CB
 fragment_sc CB
-fragment_rsr_1 CA C O N+ CA+
-fragment_rsr_2 N CA CB C
+fragment_rsr_1 CA CB C O N+ CA+
+fragment_rsr_2 CA- C- O- N CA CB C
 main-chain N CA C O CB
 side-chain CB
 phi C- N CA C

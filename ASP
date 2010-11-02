@@ -1,4 +1,4 @@
-residue ASP 
+residue ASP D
 centre CA
 atom   N     CA    C     O     CB    CG    OD1   OD2
 fragment_all N     CA    C     O     CB    CG    OD1   OD2
