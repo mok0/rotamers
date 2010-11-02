@@ -1,8 +1,8 @@
-! Stereochemistry amino acids and nucleic acids, Date:050802
-! Modified to employ Duke University rotamers for amino acids.
-! MOK 16. Oct. 2005
-!
-.bonds_angles t XXXXX 72
+! Stereochemistry file for O using Duke University rotamers for amino acids.
+! http://kinemage.biochem.duke.edu/
+! Lovell, Word, Richardson and  Richardson (2000) 
+! The Penultimate Rotamer Library. Proteins 40:389-408
+.bonds_angles t XXXXXXX 72
 link connections between 2 linked atoms, must be < than this value
 connect_all 2.0
 connect_mc 2.0
@@ -31,6 +31,7 @@ include(THR)dnl
 include(TRP)dnl
 include(TYR)dnl
 include(VAL)dnl
+include(HOH)dnl
 ! read OK
 m4exit(0)
 
