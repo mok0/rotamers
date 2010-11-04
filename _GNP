@@ -1,19 +1,19 @@
 residue GNP
 centre  PG
-atom PG O1G O2G O3G N3B PB O1B O2B PA \
+atom PG O1G O2G O3G PB O1B O2B N3B PA \
    O1A O2A O3A O5' C5' C4' O4' C3' O3' C2' O2' \
    C1' N9 C8 N7 C5 C6 O6 N1 C2 N2 \
    N3 C4
-fragment_all PG O1G O2G O3G N3B PB O1B O2B O3A PA \
-   O1A O2A O5' C5' C4' O4' C3' O3' C2' O2' \
+fragment_all PG O1G O2G O3G PB O1B O2B N3B PA \
+   O1A O2A O3A O5' C5' C4' O4' C3' O3' C2' O2' \
    C1' N9 C8 N7 C5 C6 O6 N1 C2 N2 \
    N3 C4
-fragment_sc PG O1G O2G O3G N3B PB O1B O2B O3A PA \
-   O1A O2A O5' C5' C4' O4' C3' O3' C2' O2' \
+fragment_sc PG O1G O2G O3G PB O1B O2B N3B PA \
+   O1A O2A O3A O5' C5' C4' O4' C3' O3' C2' O2' \
    C1' N9 C8 N7 C5 C6 O6 N1 C2 N2 \
    N3 C4
-side-chain PG O1G O2G O3G N3B PB O1B O2B O3A PA \
-   O1A O2A O5' C5' C4' O4' C3' O3' C2' O2' \
+side-chain PG O1G O2G O3G PB O1B O2B N3B PA \
+   O1A O2A O3A O5' C5' C4' O4' C3' O3' C2' O2' \
    C1' N9 C8 N7 C5 C6 O6 N1 C2 N2 \
    N3 C4
 connect_all PG O1G
