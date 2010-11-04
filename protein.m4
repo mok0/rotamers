@@ -32,6 +32,7 @@ include(_TRP)dnl
 include(_TYR)dnl
 include(_VAL)dnl
 include(_HOH)dnl
+include(_MG)dnl
 ! read OK
 m4exit(0)
 

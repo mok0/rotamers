@@ -50,5 +50,6 @@ include(_7MG)dnl
 include(_5MU)dnl
 include(_1MA)dnl
 include(_HOH)dnl
+include(_MG)dnl
 ! read ok
 m4exit(0)
