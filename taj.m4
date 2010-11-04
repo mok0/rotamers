@@ -12,7 +12,6 @@ link connections between 2 linked atoms, must be < than this value
 connect_all 2.0
 connect_mc 2.0
 connect_sc 4.8
-include(macros.m4)dnl
 include(_GLC)dnl
 include(_GAL)dnl
 include(_XYL)dnl

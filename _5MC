@@ -1,19 +1,19 @@
 residue 5MC
 centre  P
-atom P O1P O2P O5' C5' C4' O4' C3' O3' \
+atom P OP1 OP2 O5' C5' C4' O4' C3' O3' \
    C2' O2' C1' N1 C2 O2 N3 C4 N4 C5 \
    C6 CM5
-fragment_all P O1P O2P O5' C5' C4' O4' C3' O3' \
+fragment_all P OP1 OP2 O5' C5' C4' O4' C3' O3' \
    C2' O2' C1' N1 C2 O2 N3 C4 N4 C5 \
    C6 CM5
-fragment_sc P O1P O2P O5' C5' C4' O4' C3' O3' \
+fragment_sc P OP1 OP2 O5' C5' C4' O4' C3' O3' \
    C2' O2' C1' N1 C2 O2 N3 C4 N4 C5 \
    C6 CM5
-side-chain P O1P O2P O5' C5' C4' O4' C3' O3' \
+side-chain P OP1 OP2 O5' C5' C4' O4' C3' O3' \
    C2' O2' C1' N1 C2 O2 N3 C4 N4 C5 \
    C6 CM5
 ---
-main-chain P O1P O2P O5' C5' C4' C3' O3'
+main-chain P OP1 OP2 O5' C5' C4' C3' O3'
 alpha   O3'- P    O5'  C5'
 beta    P    O5'  C5'  C4'
 gamma   O5'  C5'  C4'  C3'
@@ -40,8 +40,8 @@ connect_all N1 C6 C5 C4 N3 C2
 connect_all C4 N4
 connect_all C5 CM5
 torsion tor3 O4' C1' N1 C2 C2 O2 N3 C4 N4 C5 C6 CM5
-bond_distance P O1P 1.479 0.020
-bond_distance P O2P 1.609 0.020
+bond_distance P OP1 1.479 0.020
+bond_distance P OP2 1.609 0.020
 bond_distance P O5' 1.609 0.020
 bond_distance O5' C5' 1.428 0.020
 bond_distance C5' C4' 1.529 0.020
@@ -62,9 +62,9 @@ bond_distance C4 N4 1.375 0.020
 bond_distance C4 C5 1.410 0.020
 bond_distance C5 C6 1.354 0.020
 bond_distance C5 CM5 1.507 0.020
-bond_angle O1P P O2P 109.47 2.00
-bond_angle O1P P O5' 109.46 2.00
-bond_angle O2P P O5' 109.48 2.00
+bond_angle OP1 P OP2 109.47 2.00
+bond_angle OP1 P O5' 109.46 2.00
+bond_angle OP2 P O5' 109.48 2.00
 bond_angle P O5' C5' 106.84 2.00
 bond_angle O5' C5' C4' 109.50 2.00
 bond_angle C5' C4' O4' 110.40 2.00
@@ -94,8 +94,8 @@ bond_angle C4 C5 C6 118.96 2.00
 bond_angle C4 C5 CM5 120.52 2.00
 bond_angle C6 C5 CM5 120.53 2.00
 bond_angle N1 C6 C5 119.25 2.00
-torsion_flexible O1P P O5' C5' 60.00 20.00
-torsion_fixed O2P P O5' C5' 180.00 2.00
+torsion_flexible OP1 P O5' C5' 60.00 20.00
+torsion_fixed OP2 P O5' C5' 180.00 2.00
 torsion_fixed P O5' C5' C4' 180.00 2.00
 torsion_flexible O5' C5' C4' O4' 60.00 20.00
 torsion_fixed O5' C5' C4' C3' 180.00 2.00

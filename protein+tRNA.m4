@@ -15,6 +15,7 @@ include(_ASN)dnl
 include(_ASP)dnl
 include(_CYH)dnl
 include(_CYS)dnl
+include(_DIP)dnl
 include(_GLN)dnl
 include(_GLU)dnl
 include(_GLY)dnl

@@ -3,21 +3,21 @@ centre  P
 atom N1 N2 C2 N3 C3 C4 C5 C6 O6 N7 \
    C8 N9 C10 C11 C12 C13 C14 C15 C16 O17 \
    O18 C19 N20 C21 O22 O23 C24 C1' C2' O2' \
-   C3' O3' C4' O4' C5' O5' P O1P O2P
+   C3' O3' C4' O4' C5' O5' P OP1 OP2
 fragment_all N1 N2 C2 N3 C3 C4 C5 C6 O6 N7 \
    C8 N9 C10 C11 C12 C13 C14 C15 C16 O17 \
    O18 C19 N20 C21 O22 O23 C24 C1' C2' O2' \
-   C3' O3' C4' O4' C5' O5' P O1P O2P
+   C3' O3' C4' O4' C5' O5' P OP1 OP2
 fragment_sc N1 N2 C2 N3 C3 C4 C5 C6 O6 N7 \
    C8 N9 C10 C11 C12 C13 C14 C15 C16 O17 \
    O18 C19 N20 C21 O22 O23 C24 C1' C2' O2' \
-   C3' O3' C4' O4' C5' O5' P O1P O2P
+   C3' O3' C4' O4' C5' O5' P OP1 OP2
 side-chain N1 N2 C2 N3 C3 C4 C5 C6 O6 N7 \
    C8 N9 C10 C11 C12 C13 C14 C15 C16 O17 \
    O18 C19 N20 C21 O22 O23 C24 C1' C2' O2' \
-   C3' O3' C4' O4' C5' O5' P O1P O2P
+   C3' O3' C4' O4' C5' O5' P OP1 OP2
 ---
-main-chain P O1P O2P O5' C5' C4' C3' O3'
+main-chain P OP1 OP2 O5' C5' C4' C3' O3'
 alpha   O3'- P    O5'  C5'
 beta    P    O5'  C5'  C4'
 gamma   O5'  C5'  C4'  C3'
@@ -96,8 +96,8 @@ bond_distance C4' O4' 1.444 0.020
 bond_distance C4' C5' 1.530 0.020
 bond_distance C5' O5' 1.428 0.020
 bond_distance O5' P 1.609 0.020
-bond_distance P O1P 1.479 0.020
-bond_distance P O2P 1.610 0.020
+bond_distance P OP1 1.479 0.020
+bond_distance P OP2 1.610 0.020
 bond_angle C2 N1 C6 120.94 2.00
 bond_angle C2 N1 C12 107.13 2.00
 bond_angle C6 N1 C12 131.93 2.00
@@ -157,9 +157,9 @@ bond_angle O4' C4' C5' 110.34 2.00
 bond_angle C1' O4' C4' 105.25 2.00
 bond_angle C4' C5' O5' 109.52 2.00
 bond_angle C5' O5' P 106.84 2.00
-bond_angle O5' P O1P 109.43 2.00
-bond_angle O5' P O2P 109.47 2.00
-bond_angle O1P P O2P 109.41 2.00
+bond_angle O5' P OP1 109.43 2.00
+bond_angle O5' P OP2 109.47 2.00
+bond_angle OP1 P OP2 109.41 2.00
 torsion_fixed C6 N1 C2 N2 180.00 2.00
 torsion_fixed C6 N1 C2 N3 0.00 2.00
 torsion_fixed C12 N1 C2 N2 0.00 2.00
@@ -245,8 +245,8 @@ torsion_flexible C5' C4' O4' C1' 159.00 20.00
 torsion_fixed C3' C4' C5' O5' 180.00 2.00
 torsion_flexible O4' C4' C5' O5' 60.00 20.00
 torsion_fixed C4' C5' O5' P 180.00 2.00
-torsion_flexible C5' O5' P O1P 60.00 20.00
-torsion_fixed C5' O5' P O2P 180.00 2.00
+torsion_flexible C5' O5' P OP1 60.00 20.00
+torsion_fixed C5' O5' P OP2 180.00 2.00
 torsion_fixed N1 C2 C6 C12 0.00 2.00
 torsion_fixed C2 N1 N2 N3 0.00 2.00
 torsion_fixed N3 C2 C3 C4 0.00 2.00
@@ -263,4 +263,4 @@ torsion_fixed C1' N9 C2' O4' -35.00 2.00
 torsion_fixed C2' C1' O2' C3' 35.00 2.00
 torsion_fixed C3' C2' O3' C4' 35.00 2.00
 torsion_fixed C4' C3' O4' C5' 35.00 2.00
-torsion_fixed P O5' O1P O2P -35.00 2.00
+torsion_fixed P O5' OP1 OP2 -35.00 2.00
