@@ -13,7 +13,7 @@ extra = _HOH
 all: stereochem_protein+tRNA.odb stereochem_protein.odb stereochem_taj.odb
 
 clean:
-	@ rm -f stereochem_protein+tRNA.odb stereochem_protein.odb
+	@ rm -f stereochem_protein+tRNA.odb stereochem_protein.odb stereochem_taj.odb
 	@ rm -f *~
 
 stereochem_protein+tRNA.odb: macros.m4 protein+tRNA.m4 $(amino_acids) $(tRNA) $(extra)

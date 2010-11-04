@@ -57,7 +57,7 @@ include(_DA)dnl
 include(_DG)dnl
 include(_DC)dnl
 include(_DT)dnl
----- Now come nucleotide varients AMP, ADP, ATP, SAM, NDP (_NADPH)
+---- Now come nucleotide varients AMP, ADP, ATP, SAM, NDP (NADPH)
 ---- IUPAC phosphate impropers, 071016
 include(_AMP)dnl
 include(_ADP)dnl
