@@ -1,6 +1,10 @@
 #! /bin/bash
 
-residues="7MG 5MU 1MA"
+#residues="7MG 5MU 1MA"
+
+residues="$*"
+
+echo getting: $residues
 
 for r in $residues ; do
     lower=$(echo $r|tr '[A-Z]' '[a-z]')

@@ -10,23 +10,25 @@ tRNA = _A _G _C _U _2MG _5MC _GNP _H2U _M2G _OMC _OMG _PSU _YG _7MG _5MU \
 
 extra = _HOH
 
-all: stereochem_protein+tRNA.odb stereochem_protein.odb stereochem_taj.odb
+ODBFILES = protein+tRNA.odb protein.odb stereo_chem_taj.odb
+
+all: $(ODBFILES)
 
 clean:
-	@ rm -f stereochem_protein+tRNA.odb stereochem_protein.odb stereochem_taj.odb
+	@ rm -f $(ODBFILES)
 	@ rm -f *~
 
-stereochem_protein+tRNA.odb: macros.m4 protein+tRNA.m4 $(amino_acids) $(tRNA) $(extra)
+protein+tRNA.odb: macros.m4 protein+tRNA.m4 $(amino_acids) $(tRNA) $(extra)
 	@ m4 protein+tRNA.m4 > $@
 	@ len=`cat $@|wc -l`; dblen=$$(($$len - 7)); sed -i "s/XXXXXXX/$$dblen/" $@
 	@ echo created $@
 
-stereochem_protein.odb: macros.m4 protein.m4 $(amino_acids) $(extra)
+protein.odb: protein.m4 $(amino_acids) $(extra)
 	@ m4 protein.m4 > $@
 	@ len=`cat $@|wc -l`; dblen=$$(($$len - 6)); sed -i "s/XXXXXXX/$$dblen/" $@
 	@ echo created $@
 
-stereochem_taj.odb: macros.m4 taj.m4 $(amino_acids)
+stereo_chem_taj.odb: taj.m4 $(amino_acids)
 	@ m4 taj.m4 > $@
 	@ len=`cat $@|wc -l`; dblen=$$(($$len - 11)); sed -i "s/XXXXXXX/$$dblen/" $@
 	@ echo created $@
