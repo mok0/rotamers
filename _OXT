@@ -7,7 +7,7 @@ fragment_all OXT
 fragment_rsr_1 OXT C- O- CA-
 side-chain OXT
 main-chain OXT
-connect_all C- OXT
+connect_all - OXT
 bond_distance OXT  C-       1.22  0.02
 bond_angle O-    C-    OXT   120.000 2.0
 bond_angle CA-   C-    OXT   120.000 2.0

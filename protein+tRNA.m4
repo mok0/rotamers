@@ -15,7 +15,6 @@ include(_ASN)dnl
 include(_ASP)dnl
 include(_CYH)dnl
 include(_CYS)dnl
-include(_DIP)dnl
 include(_GLN)dnl
 include(_GLU)dnl
 include(_GLY)dnl
@@ -25,7 +24,6 @@ include(_LEU)dnl
 include(_LYS)dnl
 include(_MET)dnl
 include(_MSE)dnl
-include(_PEP)dnl
 include(_PHE)dnl
 include(_PRO)dnl
 include(_SER)dnl
@@ -33,6 +31,11 @@ include(_THR)dnl
 include(_TRP)dnl
 include(_TYR)dnl
 include(_VAL)dnl
+include(_OXT)dnl
+--- O-specific residue types ----
+include(_DIP)dnl
+include(_PEP)dnl
+--- tRNA bases ----
 include(_A)dnl
 include(_G)dnl
 include(_C)dnl
@@ -49,6 +52,7 @@ include(_YG)dnl
 include(_7MG)dnl
 include(_5MU)dnl
 include(_1MA)dnl
+--- Misc. ----
 include(_HOH)dnl
 include(_MG)dnl
 ! read ok
