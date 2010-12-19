@@ -12,70 +12,70 @@ link connections between 2 linked atoms, must be < than this value
 connect_all 2.0
 connect_mc 2.0
 connect_sc 4.8
-include(_GLC)dnl
-include(_GAL)dnl
-include(_XYL)dnl
-include(_PEP)dnl
-include(_DIP)dnl
-include(_ALA)dnl
-include(_ARG)dnl
-include(_ASN)dnl
-include(_ASP)dnl
-include(_CYH)dnl
-include(_CYS)dnl
-include(_GLN)dnl
-include(_GLU)dnl
-include(_GLY)dnl
-include(_HIS)dnl
-include(_ILE)dnl
-include(_LEU)dnl
-include(_LYS)dnl
-include(_MET)dnl
-include(_MSE)dnl
-include(_PHE)dnl
-include(_PRO)dnl
-include(_SER)dnl
-include(_THR)dnl
-include(_TRP)dnl
-include(_TYR)dnl
+include(GLC)dnl
+include(GAL)dnl
+include(XYL)dnl
+include(PEP)dnl
+include(DIP)dnl
+include(ALA)dnl
+include(ARG)dnl
+include(ASN)dnl
+include(ASP)dnl
+include(CYH)dnl
+include(CYS)dnl
+include(GLN)dnl
+include(GLU)dnl
+include(GLY)dnl
+include(HIS)dnl
+include(ILE)dnl
+include(LEU)dnl
+include(LYS)dnl
+include(MET)dnl
+include(MSE)dnl
+include(PHE)dnl
+include(PRO)dnl
+include(SER)dnl
+include(THR)dnl
+include(TRP)dnl
+include(TYR)dnl
 ------------------- Phosphorylated tyrosine ----------------------------
-include(_PHY)dnl
+include(PHY)dnl
 ------------------- Phosphorylated serine ----------------------------
-include(_PHS)dnl
+include(PHS)dnl
 ------------------- Phosphorylated threonine ---------------------------
-include(_PHT)dnl
-include(_VAL)dnl
+include(PHT)dnl
+include(VAL)dnl
 ---- A, C, G, U are RNA bases
 ---- DA, DC, DG, DT are DNA bases
 ---- IUPAC stereochemistry at phosphates, 071016
-include(_A)dnl
-include(_G)dnl
-include(_C)dnl
-include(_U)dnl
-include(_DA)dnl
-include(_DG)dnl
-include(_DC)dnl
-include(_DT)dnl
+include(A)dnl
+include(G)dnl
+include(C)dnl
+include(U)dnl
+include(DA)dnl
+include(DG)dnl
+include(DC)dnl
+include(DT)dnl
 ---- Now come nucleotide varients AMP, ADP, ATP, SAM, NDP (NADPH)
 ---- IUPAC phosphate impropers, 071016
-include(_AMP)dnl
-include(_ADP)dnl
-include(_ATP)dnl
-include(_SAM)dnl
-include(_OXT)dnl
+include(AMP)dnl
+include(ADP)dnl
+include(ATP)dnl
+include(SAM)dnl
+include(OXT)dnl
 ------ NADPH built using 'ideal' coords from EBI
 ------ N ring is not flat. PDB naming
 ------ IUPAC impropers at phosphates
-include(_NDP)dnl
-include(_HOH)dnl
-include(_SOL)dnl
-include(_MG)dnl
-include(_CL)dnl
-include(_SO4)dnl
-include(_PO4)dnl
-include(_DXP)dnl
-include(_MEP)dnl
+include(NDP)dnl
+include(HOH)dnl
+include(SOL)dnl
+include(MG)dnl
+include(CL)dnl
+include(SO4)dnl
+include(PO4)dnl
+include(DXP)dnl
+include(MEP)dnl
 ------ MetSox
-include(_MSP)dnl
+include(MSP)dnl
 ! read OK
 m4exit(0)
